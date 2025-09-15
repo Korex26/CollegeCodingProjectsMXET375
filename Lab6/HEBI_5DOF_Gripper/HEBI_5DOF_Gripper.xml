@@ -1,0 +1,3292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/08/22||22:41:06" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="HEBI_5DOF_Gripper" uid="HEBI_5DOF_Gripper" version="163">
+<AssemblyFile name="HEBI_5DOF_Gripper.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Base.step-1" uid="Base.step-1" grounded="true" entityUid="Base.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.22497055955223633 -0.057570063232104812 0.11763948616692507</Translation>
+</Transform>
+<Instance name="T-Slot Adapter Plate Assembly.step-1" uid="T-Slot Adapter Plate Assembly.step-1" grounded="true" entityUid="T-Slot Adapter Plate Assembly.step" rigid="true">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="M5 FHCS, 10mm.step-1" uid="M5 FHCS, 10mm.step-1" grounded="true" entityUid="M5 FHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 0 -2.0000000000000002e-15 -1 1.0000000000000001e-15 0 -1.0000000000000001e-15 -1</Rotation>
+<Translation>-0.021655098833128002 -0.012925062722056013 -0.0024302988331279946</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 FHCS, 10mm.step-2" uid="M5 FHCS, 10mm.step-2" grounded="true" entityUid="M5 FHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 0 -2.0000000000000002e-15 -1 1.0000000000000001e-15 0 -1.0000000000000001e-15 -1</Rotation>
+<Translation>-0.021655098833128002 0.0070749372779440045 -0.0024302988331279946</Translation>
+</Transform>
+</Instance>
+<Instance name="T-Slot Adapter Plate.step-1" uid="T-Slot Adapter Plate.step-1" grounded="true" entityUid="T-Slot Adapter Plate.step*:*Default">
+<Transform>
+<Rotation>-2.0000000000000002e-15 0 1 -1 0 -2.0000000000000002e-15 0 -1 0</Rotation>
+<Translation>0.0023449011668719988 -0.0049250627220560061 0.0023449011668719988</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 FHCS, 10mm.step-3" uid="M5 FHCS, 10mm.step-3" grounded="true" entityUid="M5 FHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 0 -2.0000000000000002e-15 -1 1.0000000000000001e-15 0 -1.0000000000000001e-15 -1</Rotation>
+<Translation>0.026344901166871992 -0.012925062722056013 -0.0024302988331279946</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 FHCS, 10mm.step-4" uid="M5 FHCS, 10mm.step-4" grounded="true" entityUid="M5 FHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 0 -2.0000000000000002e-15 -1 1.0000000000000001e-15 0 -1.0000000000000001e-15 -1</Rotation>
+<Translation>0.026344901166871992 0.0070749372779440045 -0.0024302988331279946</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="X8 Actuator.step-1" uid="X8 Actuator.step-1" grounded="true" entityUid="X8 Actuator.step" rigid="true">
+<Transform>
+<Rotation>-1 1.0000000000000001e-15 0 -1.0000000000000001e-15 -1 0 0 0 1</Rotation>
+<Translation>-0.0049250627220570053 -0.0023449011668719988 0.025344901166871991</Translation>
+</Transform>
+<Instance name="X8 Actuator Body.step-1" uid="X8 Actuator Body.step-1" grounded="true" entityUid="X8 Actuator Body.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Joint.step-1" uid="X8 Actuator Joint.step-1" grounded="true" entityUid="X8 Actuator Joint.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-2" uid="M3 BHCS, 40mm.step-2" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875986 -0.029999999999999999 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-3" uid="M3 BHCS, 40mm.step-3" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000998 -0.014908051515875001 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Bottom.step-1" uid="X8 Actuator Bottom.step-1" grounded="true" entityUid="X8 Actuator Bottom.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RJ45 Port.step-1" uid="RJ45 Port.step-1" grounded="true" entityUid="RJ45 Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Top.step-1" uid="X8 Actuator Top.step-1" grounded="true" entityUid="X8 Actuator Top.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Port Cover.step-1" uid="X8 Port Cover.step-1" grounded="true" entityUid="X8 Port Cover.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-1" uid="M3 BHCS, 40mm.step-1" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018091948484124015 -0.029999999999999999 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="Power Port.step-1" uid="Power Port.step-1" grounded="true" entityUid="Power Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-4" uid="M3 BHCS, 40mm.step-4" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000998 0.014908051515876007 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-8" uid="M3 BHCS, 40mm.step-8" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.044139680154987981 -0.0073000000000000009 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-6" uid="M3 BHCS, 40mm.step-6" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015791948484123991 0.033499999999999995 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-7" uid="M3 BHCS, 40mm.step-7" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050139680154989041 0.029973665961009997 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-5" uid="M3 BHCS, 40mm.step-5" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515876014 0.030000000000000006 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Shoulder Base.step-1" uid="Shoulder Base.step-1" entityUid="Shoulder Base.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.2249705595522361 -0.057570063232103924 0.11763948616692506</Translation>
+</Transform>
+<Instance name="Shoulder Base Bracket Assembly.step-1" uid="Shoulder Base Bracket Assembly.step-1" grounded="true" entityUid="Shoulder Base Bracket Assembly.step" rigid="true">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.0049250627220570053 -0.002344901166872998 0.047394901166871992</Translation>
+</Transform>
+<Instance name="M6 SHCS, 12mm.step-3" uid="M6 SHCS, 12mm.step-3" grounded="true" entityUid="M6 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>0.029999999999999999 0.017500000000000016 0.01999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M6 SHCS, 12mm.step-2" uid="M6 SHCS, 12mm.step-2" grounded="true" entityUid="M6 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 0.017500000000000016 0.01999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-9" uid="M5 SHCS, 14mm.step-9" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 0.99999999999999978 -0.38184931868659583 0.92422459273630153 -9.2422459273630133e-16 -0.92422459273630153 -0.38184931868659583 3.8184931868659571e-16</Rotation>
+<Translation>0.042000000000000003 0.0080000000000000071 0.031</Translation>
+</Transform>
+</Instance>
+<Instance name="M6 SHCS, 12mm.step-4" uid="M6 SHCS, 12mm.step-4" grounded="true" entityUid="M6 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>0.029999999999999999 -0.017500000000000016 0.01999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="X-Series Heavy Bracket, Right.step-1" uid="X-Series Heavy Bracket, Right.step-1" grounded="true" entityUid="X-Series Heavy Bracket, Right.step*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>-0.029999999999999999 0 0.040000000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-5" uid="M5 SHCS, 14mm.step-5" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>-9.9999999999999968e-16 0 -0.99999999999999978 -0.38184931868659583 -0.92422459273630153 3.8184931868659571e-16 -0.92422459273630153 0.38184931868659583 9.2422459273630133e-16</Rotation>
+<Translation>-0.04200000000000001 0.0080000000000000071 0.031</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-3" uid="M5 SHCS, 12mm.step-3" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0.865607748277751 -0.50072270382070905 0 -0.50072270382070905 -0.865607748277751 -1.0000000000000001e-15 0 1.0000000000000001e-15 -1</Rotation>
+<Translation>0.0066969600663890003 0.01616789181894801 -0.0070000000000000062</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-10" uid="M5 SHCS, 14mm.step-10" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 0.99999999999999978 -0.38184931868659583 0.92422459273630153 -9.2422459273630133e-16 -0.92422459273630153 -0.38184931868659583 3.8184931868659571e-16</Rotation>
+<Translation>0.042000000000000003 -0.012000000000000011 0.031</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-4" uid="M5 SHCS, 14mm.step-4" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>-9.9999999999999968e-16 0 -0.99999999999999978 -0.38184931868659583 -0.92422459273630153 3.8184931868659571e-16 -0.92422459273630153 0.38184931868659583 9.2422459273630133e-16</Rotation>
+<Translation>-0.04200000000000001 -0.025999999999999995 0.044999999999999984</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-11" uid="M5 SHCS, 14mm.step-11" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 0.99999999999999978 -0.38184931868659583 0.92422459273630153 -9.2422459273630133e-16 -0.92422459273630153 -0.38184931868659583 3.8184931868659571e-16</Rotation>
+<Translation>0.042000000000000003 -0.025999999999999995 0.065000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-3" uid="M5 SHCS, 14mm.step-3" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>-9.9999999999999968e-16 0 -0.99999999999999978 -0.38184931868659583 -0.92422459273630153 3.8184931868659571e-16 -0.92422459273630153 0.38184931868659583 9.2422459273630133e-16</Rotation>
+<Translation>-0.04200000000000001 -0.012000000000000011 0.079000000000000015</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-6" uid="M5 SHCS, 12mm.step-6" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0.25801268928912796 -0.96614152802050279 -9.6614152802050273e-16 -0.96614152802050279 -0.25801268928912796 -2.5801268928912794e-16 0 9.9999999999999988e-16 -1</Rotation>
+<Translation>0.016167891818947996 0.0066969600663890072 -0.0070000000000000062</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-8" uid="M5 SHCS, 14mm.step-8" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 0.99999999999999978 -0.38184931868659583 0.92422459273630153 -9.2422459273630133e-16 -0.92422459273630153 -0.38184931868659583 3.8184931868659571e-16</Rotation>
+<Translation>0.042000000000000003 0.0080000000000000071 0.079000000000000015</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-2" uid="M5 SHCS, 12mm.step-2" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.25801268928913501 0.96614152802050102 0 0.96614152802050102 0.25801268928913501 0 0 0 -1</Rotation>
+<Translation>-0.016167891818947996 -0.0066969600663890072 -0.0070000000000000062</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-5" uid="M5 SHCS, 12mm.step-5" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0.50072270382070527 0.86560774827775333 8.6560774827775373e-16 0.86560774827775333 -0.50072270382070527 -5.0072270382070549e-16 0 1.0000000000000005e-15 -1</Rotation>
+<Translation>-0.016167891818947996 0.0066969600663890072 -0.0070000000000000062</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-7" uid="M5 SHCS, 14mm.step-7" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 0.99999999999999978 -0.38184931868659583 0.92422459273630153 -9.2422459273630133e-16 -0.92422459273630153 -0.38184931868659583 3.8184931868659571e-16</Rotation>
+<Translation>0.042000000000000003 -0.025999999999999995 0.044999999999999984</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-12" uid="M5 SHCS, 14mm.step-12" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 0.99999999999999978 -0.38184931868659583 0.92422459273630153 -9.2422459273630133e-16 -0.92422459273630153 -0.38184931868659583 3.8184931868659571e-16</Rotation>
+<Translation>0.042000000000000003 -0.012000000000000011 0.079000000000000015</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-8" uid="M5 SHCS, 12mm.step-8" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.96614152802050357 -0.25801268928912491 0 -0.25801268928912491 0.96614152802050357 0 0 0 -1</Rotation>
+<Translation>0.0066969600663890003 -0.01616789181894801 -0.0070000000000000062</Translation>
+</Transform>
+</Instance>
+<Instance name="X-Series Heavy Bracket, Left.step-1" uid="X-Series Heavy Bracket, Left.step-1" grounded="true" entityUid="X-Series Heavy Bracket, Left.step*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0.029999999999999999 0 0.040000000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-2" uid="M5 SHCS, 14mm.step-2" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>-9.9999999999999968e-16 0 -0.99999999999999978 -0.38184931868659583 -0.92422459273630153 3.8184931868659571e-16 -0.92422459273630153 0.38184931868659583 9.2422459273630133e-16</Rotation>
+<Translation>-0.04200000000000001 -0.025999999999999995 0.065000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-6" uid="M5 SHCS, 14mm.step-6" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>-9.9999999999999968e-16 0 -0.99999999999999978 -0.38184931868659583 -0.92422459273630153 3.8184931868659571e-16 -0.92422459273630153 0.38184931868659583 9.2422459273630133e-16</Rotation>
+<Translation>-0.04200000000000001 0.0080000000000000071 0.079000000000000015</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-4" uid="M5 SHCS, 12mm.step-4" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0.96614152802050202 0.25801268928913101 0 0.25801268928913101 -0.96614152802050202 -1.0000000000000001e-15 0 1.0000000000000001e-15 -1</Rotation>
+<Translation>-0.0066969600663890072 0.01616789181894801 -0.0070000000000000062</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-7" uid="M5 SHCS, 12mm.step-7" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.50072270382071171 -0.86560774827774956 0 -0.86560774827774956 0.50072270382071171 0 0 0 -1</Rotation>
+<Translation>0.016167891818947996 -0.0066969600663890072 -0.0070000000000000062</Translation>
+</Transform>
+</Instance>
+<Instance name="Double Heavy Bracket Bottom.step-1" uid="Double Heavy Bracket Bottom.step-1" grounded="true" entityUid="Double Heavy Bracket Bottom.step*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>0 0 0.0050000000000000044</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-1" uid="M5 SHCS, 12mm.step-1" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.86560774827775466 0.50072270382070283 0 0.50072270382070283 0.86560774827775466 0 0 0 -1</Rotation>
+<Translation>-0.0066969600663890072 -0.01616789181894801 -0.0070000000000000062</Translation>
+</Transform>
+</Instance>
+<Instance name="M6 SHCS, 12mm.step-1" uid="M6 SHCS, 12mm.step-1" grounded="true" entityUid="M6 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 -0.017500000000000016 0.01999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 14mm.step-1" uid="M5 SHCS, 14mm.step-1" grounded="true" entityUid="M5 SHCS, 14mm.step*:*Default">
+<Transform>
+<Rotation>-9.9999999999999968e-16 0 -0.99999999999999978 -0.38184931868659583 -0.92422459273630153 3.8184931868659571e-16 -0.92422459273630153 0.38184931868659583 9.2422459273630133e-16</Rotation>
+<Translation>-0.04200000000000001 -0.012000000000000011 0.031</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="X8 Actuator.step-1" uid="X8 Actuator.step-1" grounded="true" entityUid="X8 Actuator.step" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>-0.0049250627220570053 0.058155098833127 0.10239490116687298</Translation>
+</Transform>
+<Instance name="X8 Port Cover.step-1" uid="X8 Port Cover.step-1" grounded="true" entityUid="X8 Port Cover.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Power Port.step-1" uid="Power Port.step-1" grounded="true" entityUid="Power Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-5" uid="M3 BHCS, 40mm.step-5" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875986 0.029999999999999971 -0.0016999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-7" uid="M3 BHCS, 40mm.step-7" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050139680154988986 0.029973665961009976 -0.0016999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-2" uid="M3 BHCS, 40mm.step-2" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875986 -0.029999999999999999 -0.0016999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-8" uid="M3 BHCS, 40mm.step-8" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.044139680154987981 -0.0073000000000000009 -0.0016999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-1" uid="M3 BHCS, 40mm.step-1" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018091948484123987 -0.029999999999999999 -0.0016999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-3" uid="M3 BHCS, 40mm.step-3" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000998 -0.014908051515874987 -0.0016999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="RJ45 Port.step-1" uid="RJ45 Port.step-1" grounded="true" entityUid="RJ45 Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-6" uid="M3 BHCS, 40mm.step-6" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015791948484123991 0.03350000000000003 -0.0016999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-4" uid="M3 BHCS, 40mm.step-4" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000998 0.014908051515875986 -0.0016999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Top.step-1" uid="X8 Actuator Top.step-1" grounded="true" entityUid="X8 Actuator Top.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Body.step-1" uid="X8 Actuator Body.step-1" grounded="true" entityUid="X8 Actuator Body.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Joint.step-1" uid="X8 Actuator Joint.step-1" grounded="true" entityUid="X8 Actuator Joint.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Bottom.step-1" uid="X8 Actuator Bottom.step-1" grounded="true" entityUid="X8 Actuator Bottom.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="X8 Actuator_1.step-1" uid="X8 Actuator_1.step-1" grounded="true" entityUid="X8 Actuator_1.step" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 -1.0000000000000001e-15 -1 0 -1 1.0000000000000001e-15</Rotation>
+<Translation>-0.0049250627220570053 -0.062844901166872996 0.10239490116687298</Translation>
+</Transform>
+<Instance name="RJ45 Port.step-1" uid="RJ45 Port.step-1" grounded="true" entityUid="RJ45 Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Power Port.step-1" uid="Power Port.step-1" grounded="true" entityUid="Power Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Top.step-1" uid="X8 Actuator Top.step-1" grounded="true" entityUid="X8 Actuator Top.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Body.step-1" uid="X8 Actuator Body.step-1" grounded="true" entityUid="X8 Actuator Body.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Joint.step-1" uid="X8 Actuator Joint.step-1" grounded="true" entityUid="X8 Actuator Joint.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Bottom.step-1" uid="X8 Actuator Bottom.step-1" grounded="true" entityUid="X8 Actuator Bottom.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Port Cover.step-1" uid="X8 Port Cover.step-1" grounded="true" entityUid="X8 Port Cover.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-3" uid="M3 BHCS, 40mm.step-3" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000998 -0.014908051515874987 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-4" uid="M3 BHCS, 40mm.step-4" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000998 0.014908051515876014 -0.0016999999999999932</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-1" uid="M3 BHCS, 40mm.step-1" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018091948484123987 -0.029999999999999971 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-5" uid="M3 BHCS, 40mm.step-5" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875986 0.029999999999999999 -0.0016999999999999932</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-8" uid="M3 BHCS, 40mm.step-8" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.044139680154987981 -0.0073000000000000009 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-7" uid="M3 BHCS, 40mm.step-7" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050139680154988986 0.029973665961010004 -0.0016999999999999932</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-6" uid="M3 BHCS, 40mm.step-6" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015791948484123991 0.033500000000000002 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-2" uid="M3 BHCS, 40mm.step-2" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875986 -0.029999999999999971 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Shoulder Appendage.step-1" uid="Shoulder Appendage.step-1" entityUid="Shoulder Appendage.step" rigid="true">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15 0 0 0 1</Rotation>
+<Translation>-0.13989562227418065 -0.059914964398977588 0.22003444088922489</Translation>
+</Transform>
+<Instance name="Shoulder Appendage Bracket Assembly.step-1" uid="Shoulder Appendage Bracket Assembly.step-1" grounded="true" entityUid="Shoulder Appendage Bracket Assembly.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Adapter Plate.step-1" uid="Adapter Plate.step-1" grounded="true" entityUid="Adapter Plate.step*:*Default">
+<Transform>
+<Rotation>0 -1 0 0.99999999999935951 0 1.1317968139999996e-06 -1.1317968139999996e-06 0 0.99999999999935951</Rotation>
+<Translation>-0.088550000000000004 0.09000000000011199 -5.3555427009799317e-08</Translation>
+</Transform>
+</Instance>
+<Instance name="Connector Plate.step-1" uid="Connector Plate.step-1" grounded="true" entityUid="Connector Plate.step*:*Default">
+<Transform>
+<Rotation>0 1 1.0000000000000005e-15 0 1.0000000000000005e-15 -1 -1 0 0</Rotation>
+<Translation>0 -0.0025000000000000022 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-2" uid="M5 SHCS, 12mm.step-2" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0.99999999999935951 1.1317968139999996e-06 0 -1.1317968139999996e-06 0.99999999999935951 0</Rotation>
+<Translation>-0.077549999999999994 0.096696978365265973 0.016167830683912005</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-3" uid="M5 SHCS, 12mm.step-3" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.99999999999935951 -1.1317968149999997e-06 0 -1.1317968149999997e-06 -0.99999999999935951 0</Rotation>
+<Translation>0.077549999999999994 0.08330305823249598 0.016167845843108014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-4" uid="M5 SHCS, 12mm.step-4" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 1 0.99999999999935951 1.1317968139999996e-06 0 -1.1317968139999996e-06 0.99999999999935951 -9.9999999999935913e-16</Rotation>
+<Translation>-0.077549999999999994 0.073832115760773975 0.0066969248097260015</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-1" uid="M5 SHCS, 12mm.step-1" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -9.9999999999999968e-16 1 0.99999999999935951 1.1317968139999996e-06 0 -1.1317968139999996e-06 0.99999999999935951 9.9999999999935913e-16</Rotation>
+<Translation>-0.077549999999999994 0.083303021634959978 -0.016167937794765996</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-5" uid="M5 SHCS, 12mm.step-5" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -9.9999999999999968e-16 -1 0.99999999999935951 -1.1317968149999997e-06 0 -1.1317968149999997e-06 -0.99999999999935951 9.9999999999935913e-16</Rotation>
+<Translation>0.077550000000000008 0.096696978365266001 0.016167830683912005</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-12" uid="M5 SHCS, 12mm.step-12" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -1.9999999999999994e-15 1 0.99999999999935951 1.1317968139999996e-06 0 -1.1317968139999996e-06 0.99999999999935951 1.9999999999987183e-15</Rotation>
+<Translation>-0.077549999999999994 0.10616788423945198 -0.0066970319205799933</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-19" uid="M5 SHCS, 12mm.step-19" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 -1 0.99999999999935951 -1.1317968149999997e-06 0 -1.1317968149999997e-06 -0.99999999999935951 -9.9999999999935913e-16</Rotation>
+<Translation>0.077549999999999994 0.073832115760773004 0.0066969248097260015</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-13" uid="M5 SHCS, 12mm.step-13" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1317968149999997e-06 0 -0.99999999999935951 -0.99999999999935951 0 1.1317968149999997e-06</Rotation>
+<Translation>0.011999999999999997 -0.012000027163001026 -0.023999986321683014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-22" uid="M5 SHCS, 12mm.step-22" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 -1 0.99999999999935951 -1.1317968139999996e-06 0 -1.1317968139999996e-06 -0.99999999999935951 -9.9999999999935913e-16</Rotation>
+<Translation>0.077549999999999994 0.106167884239452 -0.0066970319205799933</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-8" uid="M5 SHCS, 12mm.step-8" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 1 0.99999999999935951 1.1317968139999996e-06 0 -1.1317968139999996e-06 0.99999999999935951 -9.9999999999935913e-16</Rotation>
+<Translation>-0.077549999999999994 0.083303058232495952 0.016167845843108014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-11" uid="M5 SHCS, 12mm.step-11" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1317968149999997e-06 0 -0.99999999999935951 -0.99999999999935951 0 1.1317968149999997e-06</Rotation>
+<Translation>0.025999999999999995 -0.011999988681909018 0.010000013678296005</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-15" uid="M5 SHCS, 12mm.step-15" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0.99999999999935951 1.1317968139999996e-06 0 -1.1317968139999996e-06 0.99999999999935951 0</Rotation>
+<Translation>-0.077549999999999994 0.073832100601576967 -0.0066969953230429924</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-16" uid="M5 SHCS, 12mm.step-16" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1.9999999999999994e-15 -1 0.99999999999935951 -1.1317968149999997e-06 0 -1.1317968149999997e-06 -0.99999999999935951 -1.9999999999987183e-15</Rotation>
+<Translation>0.077549999999999994 0.083303021634959007 -0.016167937794765996</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-20" uid="M5 SHCS, 12mm.step-20" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -1 0 -1.1317968119999996e-06 0 0.99999999999935951 -0.99999999999935951 0 -1.1317968119999996e-06</Rotation>
+<Translation>0.088550000000000004 0.0069999801936669881 -0.017500007825826003</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-24" uid="M5 SHCS, 12mm.step-24" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.99999999999935951 -1.1317968149999997e-06 0 -1.1317968149999997e-06 -0.99999999999935951 0</Rotation>
+<Translation>0.077549999999999994 0.10616789939864799 0.0066968882121890005</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-10" uid="M5 SHCS, 12mm.step-10" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1317968149999997e-06 0 -0.99999999999935951 -0.99999999999935951 0 1.1317968149999997e-06</Rotation>
+<Translation>-0.0079999999999999932 -0.012000027163000998 -0.023999986321683014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-14" uid="M5 SHCS, 12mm.step-14" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1.9999999999999994e-15 -1 0.99999999999935951 -1.1317968149999997e-06 0 -1.1317968149999997e-06 -0.99999999999935951 -1.9999999999987183e-15</Rotation>
+<Translation>0.077550000000000008 0.096696941767729 -0.016167952953962006</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-23" uid="M5 SHCS, 12mm.step-23" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1317968149999997e-06 0 -0.99999999999935951 -0.99999999999935951 0 1.1317968149999997e-06</Rotation>
+<Translation>-0.0079999999999999932 -0.011999972836752998 0.024000013678286997</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-9" uid="M5 SHCS, 12mm.step-9" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1317968149999997e-06 0 -0.99999999999935951 -0.99999999999935951 0 1.1317968149999997e-06</Rotation>
+<Translation>0.025999999999999995 -0.012000011317845033 -0.0099999863216919949</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-17" uid="M5 SHCS, 12mm.step-17" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -1 0 -1.1317968119999996e-06 0 0.99999999999935951 -0.99999999999935951 0 -1.1317968119999996e-06</Rotation>
+<Translation>-0.088550000000000004 0.0070000198065549857 0.017499992174150991</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-21" uid="M5 SHCS, 12mm.step-21" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -1 0 -1.1317968119999996e-06 0 0.99999999999935951 -0.99999999999935951 0 -1.1317968119999996e-06</Rotation>
+<Translation>-0.088550000000000004 0.0069999801936669881 -0.017500007825826003</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-6" uid="M5 SHCS, 12mm.step-6" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -9.9999999999999968e-16 1 0.99999999999935951 1.1317968139999996e-06 0 -1.1317968139999996e-06 0.99999999999935951 9.9999999999935913e-16</Rotation>
+<Translation>-0.077549999999999994 0.10616789939864796 0.0066968882121890005</Translation>
+</Transform>
+</Instance>
+<Instance name="Adapter Plate.step-2" uid="Adapter Plate.step-2" grounded="true" entityUid="Adapter Plate.step*:*Default">
+<Transform>
+<Rotation>0 1 0 0.99999999999935951 0 -1.1317968139999996e-06 -1.1317968139999996e-06 0 -0.99999999999935951</Rotation>
+<Translation>0.088550000000000004 0.090000000000111963 -5.3555427009799317e-08</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-7" uid="M5 SHCS, 12mm.step-7" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 -1.1317968149999997e-06 0 -0.99999999999935951 -0.99999999999935951 0 1.1317968149999997e-06</Rotation>
+<Translation>0.011999999999999997 -0.011999972836754025 0.024000013678286997</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-18" uid="M5 SHCS, 12mm.step-18" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -1 0 -1.1317968119999996e-06 0 0.99999999999935951 -0.99999999999935951 0 -1.1317968119999996e-06</Rotation>
+<Translation>0.088550000000000004 0.0070000198065549857 0.017499992174150991</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-25" uid="M5 SHCS, 12mm.step-25" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 9.9999999999999968e-16 -1 0.99999999999935951 -1.1317968149999997e-06 0 -1.1317968149999997e-06 -0.99999999999935951 -9.9999999999935913e-16</Rotation>
+<Translation>0.077549999999999994 0.073832100601576994 -0.0066969953230429924</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-26" uid="M5 SHCS, 12mm.step-26" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 -9.9999999999999968e-16 1 0.99999999999935951 1.1317968139999996e-06 0 -1.1317968139999996e-06 0.99999999999935951 9.9999999999935913e-16</Rotation>
+<Translation>-0.077549999999999994 0.096696941767728972 -0.016167952953962006</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="X8 Actuator.step-1" uid="X8 Actuator.step-1" grounded="true" entityUid="X8 Actuator.step" rigid="true">
+<Transform>
+<Rotation>-1 1.0000000000000001e-15 0 0 0 -1 -1.0000000000000001e-15 -1 0</Rotation>
+<Translation>0 -0.028000000000000011 0</Translation>
+</Transform>
+<Instance name="X8 Actuator Top.step-1" uid="X8 Actuator Top.step-1" grounded="true" entityUid="X8 Actuator Top.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Body.step-1" uid="X8 Actuator Body.step-1" grounded="true" entityUid="X8 Actuator Body.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Joint.step-1" uid="X8 Actuator Joint.step-1" grounded="true" entityUid="X8 Actuator Joint.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Actuator Bottom.step-1" uid="X8 Actuator Bottom.step-1" grounded="true" entityUid="X8 Actuator Bottom.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X8 Port Cover.step-1" uid="X8 Port Cover.step-1" grounded="true" entityUid="X8 Port Cover.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RJ45 Port.step-1" uid="RJ45 Port.step-1" grounded="true" entityUid="RJ45 Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Power Port.step-1" uid="Power Port.step-1" grounded="true" entityUid="Power Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-2" uid="M3 BHCS, 40mm.step-2" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515876 -0.029999999999999999 -0.0016999999999999932</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-5" uid="M3 BHCS, 40mm.step-5" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515876 0.029999999999999999 -0.0016999999999999932</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-8" uid="M3 BHCS, 40mm.step-8" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.044139680154988009 -0.0073000000000000009 -0.0016999999999999932</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-3" uid="M3 BHCS, 40mm.step-3" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000001002 -0.014908051515874987 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-4" uid="M3 BHCS, 40mm.step-4" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000998 0.014908051515875986 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-6" uid="M3 BHCS, 40mm.step-6" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015791948484124005 0.033499999999999974 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-1" uid="M3 BHCS, 40mm.step-1" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018091948484124001 -0.029999999999999999 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 40mm.step-7" uid="M3 BHCS, 40mm.step-7" grounded="true" entityUid="M3 BHCS, 40mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050139680154988986 0.029973665961010004 -0.0017000000000000071</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Elbow.step-1" uid="Elbow.step-1" entityUid="Elbow.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.22497057785101232 -0.057570063232098921 0.11763949374651399</Translation>
+</Transform>
+<Instance name="In-Line Tube Assembly.step-1" uid="In-Line Tube Assembly.step-1" grounded="true" entityUid="In-Line Tube Assembly.step" rigid="true">
+<Transform>
+<Rotation>1.6000000000000001e-14 0 1 0 1 0 -1 0 1.6000000000000001e-14</Rotation>
+<Translation>0.13512495557682799 -0.0023449011668719988 0.10239494714271098</Translation>
+</Transform>
+<Instance name="M5 SHCS, 10mm.step-3" uid="M5 SHCS, 10mm.step-3" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.016167891818947983 -0.0066969600663890003 0.0014999999999999875</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-6" uid="M5 SHCS, 10mm.step-6" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.01616789181894801 -0.0066969600663890003 0.0015000000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 Dowel Pin, 10mm.step-1" uid="M2 Dowel Pin, 10mm.step-1" grounded="true" entityUid="M2 Dowel Pin, 10mm.step*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0 0.018999999999999996 0.024999999999999994</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-3" uid="M5 SHCS, 16mm.step-3" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>-0.89917844887662157 0.43758212609272878 -1.0742112993137126e-14 -9.9999999999999953e-15 3.9999999999999987e-15 0.99999999999999989 0.43758212609272878 0.89917844887662157 7.7910746542080021e-16</Rotation>
+<Translation>-0.01949999999999999 0.0085000000000000006 0.028999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-4" uid="M5 SHCS, 16mm.step-4" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>-0.89917844887662157 0.43758212609272878 -1.0742112993137126e-14 -9.9999999999999953e-15 3.9999999999999987e-15 0.99999999999999989 0.43758212609272878 0.89917844887662157 7.7910746542080021e-16</Rotation>
+<Translation>0.019500000000000017 0.0085000000000000006 0.016999999999998988</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-2" uid="M5 SHCS, 16mm.step-2" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>-0.89917844887662157 0.43758212609272878 -1.0742112993137126e-14 -9.9999999999999953e-15 3.9999999999999987e-15 0.99999999999999989 0.43758212609272878 0.89917844887662157 7.7910746542080021e-16</Rotation>
+<Translation>-0.01949999999999999 0.0085000000000000006 0.016999999999999987</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-2" uid="M5 SHCS, 10mm.step-2" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0066969600663890072 0.016167891818948003 0.0015000000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-1" uid="M5 SHCS, 10mm.step-1" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0066969600663890072 0.016167891818948003 0.0014999999999999875</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-4" uid="M5 SHCS, 10mm.step-4" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0066969600663890072 -0.016167891818948003 0.0014999999999999875</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-5" uid="M5 SHCS, 10mm.step-5" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0066969600663890072 -0.016167891818948003 0.0015000000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="Output In-Line Tube Adapter.step-1" uid="Output In-Line Tube Adapter.step-1" grounded="true" entityUid="Output In-Line Tube Adapter.step*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0 0 0.017500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Tube Clamp.step-1" uid="Tube Clamp.step-1" grounded="true" entityUid="Tube Clamp.step*:*Default">
+<Transform>
+<Rotation>-1 1e-14 4.0000000000000003e-15 -1e-14 -1 0 4.0000000000000003e-15 0 1</Rotation>
+<Translation>0 0 0.022999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-1" uid="M5 SHCS, 16mm.step-1" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>-0.89917844887662157 0.43758212609272878 -1.0742112993137126e-14 -9.9999999999999953e-15 3.9999999999999987e-15 0.99999999999999989 0.43758212609272878 0.89917844887662157 7.7910746542080021e-16</Rotation>
+<Translation>0.019500000000000017 0.0085000000000000006 0.028999999999998992</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Housing Tube Mount Assembly.step-1" uid="Housing Tube Mount Assembly.step-1" grounded="true" entityUid="Housing Tube Mount Assembly.step" rigid="true">
+<Transform>
+<Rotation>1.0000000000000001e-15 -1 -5e-15 0 5e-15 -1 1 1.0000000000000001e-15 0</Rotation>
+<Translation>0.454051300736176 0.017655098833127998 0.096321292498194003</Translation>
+</Transform>
+<Instance name="Tube Clamp.step-1" uid="Tube Clamp.step-1" grounded="true" entityUid="Tube Clamp.step*:*Default">
+<Transform>
+<Rotation>1 -1.000000000000005e-15 0 0 -9.9999999999999988e-16 -1 9.9999999999999515e-16 1 -9.9999999999999968e-16</Rotation>
+<Translation>0.0060736546445190054 0.01842634515934799 0.019999999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Housing Tube Mount.step-1" uid="Housing Tube Mount.step-1" grounded="true" entityUid="Housing Tube Mount.step*:*Default">
+<Transform>
+<Rotation>1.0000000000000001e-15 -1 0 1 1.0000000000000001e-15 0 0 0 1</Rotation>
+<Translation>0.006073654644517007 -0.0060736548406510049 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 Dowel Pin, 6mm.step-1" uid="M2 Dowel Pin, 6mm.step-1" grounded="true" entityUid="M2 Dowel Pin, 6mm.step*:*Default">
+<Transform>
+<Rotation>0 -1 1.0000000000000001e-15 0 1.0000000000000001e-15 1 -1 0 0</Rotation>
+<Translation>0.006073654644517007 0.01892634515934899 0.0030000000000000027</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-1" uid="M5 SHCS, 8mm.step-1" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1.0000000000000001e-15 -1 0 1 1.0000000000000001e-15 0 0 0 1</Rotation>
+<Translation>-0.017926345355482987 0.0019263451593490022 0.0014999999999999944</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-3" uid="M5 SHCS, 8mm.step-3" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>2.0000000000000002e-15 -1 0 1 2.0000000000000002e-15 0 0 0 1</Rotation>
+<Translation>-0.0039263453554830019 -0.032073654840651028 0.0015000000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-4" uid="M5 SHCS, 16mm.step-4" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>1 0 1.0000000000000001e-15 0 -1 -7.0000000000000001e-15 9.9999999999999515e-16 6.9999999999999994e-15 -1</Rotation>
+<Translation>0.025573654644519023 0.012426345159348012 0.011500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-3" uid="M5 SHCS, 16mm.step-3" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>1 0 1.0000000000000001e-15 0 -1 -7.0000000000000001e-15 9.9999999999999515e-16 6.9999999999999994e-15 -1</Rotation>
+<Translation>0.025573654644518995 0.024426345159347995 0.011500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-4" uid="M5 SHCS, 8mm.step-4" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>2.0000000000000002e-15 -1 9.9999999999999515e-16 1 2.0000000000000002e-15 0 0 1.000000000000005e-15 1</Rotation>
+<Translation>0.016073654644516988 -0.032073654840651028 0.0015000000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-2" uid="M5 SHCS, 16mm.step-2" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 -6.0000000000000005e-15 0 6.0000000000000005e-15 -1</Rotation>
+<Translation>-0.013426345355480984 0.012426345159347985 0.011500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-1" uid="M5 SHCS, 16mm.step-1" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 -6.0000000000000005e-15 0 6.0000000000000005e-15 -1</Rotation>
+<Translation>-0.013426345355481012 0.024426345159347995 0.011500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-5" uid="M5 SHCS, 8mm.step-5" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>2.0000000000000002e-15 -1 0 1 2.0000000000000002e-15 0 0 0 1</Rotation>
+<Translation>0.030073654644517001 -0.018073654840650988 0.0015000000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-6" uid="M5 SHCS, 8mm.step-6" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>2.0000000000000002e-15 -1 0 1 2.0000000000000002e-15 0 0 0 1</Rotation>
+<Translation>0.030073654644517001 0.0019263451593490022 0.0014999999999999944</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-2" uid="M5 SHCS, 8mm.step-2" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>2.0000000000000002e-15 -1 0 1 2.0000000000000002e-15 0 0 0 1</Rotation>
+<Translation>-0.017926345355482987 -0.018073654840651016 0.0015000000000000013</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name=" Actuator.step-1" uid="X5 Actuator.step-1" grounded="true" entityUid="X5 Actuator.step" rigid="true">
+<Transform>
+<Rotation>-1 0 1.4e-14 1.4e-14 -8.0000000000000006e-15 1 0 1 8.0000000000000006e-15</Rotation>
+<Translation>0.46012495557682798 0.032655098833127998 0.10239494714271098</Translation>
+</Transform>
+<Instance name="M3 BHCS, 25mm.step-7" uid="M3 BHCS, 25mm.step-7" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050139680154989014 0.029973665961010004 0.01495</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-3" uid="M3 BHCS, 25mm.step-3" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 -0.014908051515875986 0.014950000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Power Port.step-1" uid="Power Port.step-1" grounded="true" entityUid="Power Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.004</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Joint.step-1" uid="X5 Actuator Joint.step-1" grounded="true" entityUid="X5 Actuator Joint.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-5" uid="M3 BHCS, 25mm.step-5" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875015 0.029999999999999999 0.01495</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Bottom.step-1" uid="X5 Actuator Bottom.step-1" grounded="true" entityUid="X5 Actuator Bottom.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-4" uid="M3 BHCS, 25mm.step-4" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875015 -0.029999999999999999 0.01495</Translation>
+</Transform>
+</Instance>
+<Instance name="RJ45 Port.step-1" uid="RJ45 Port.step-1" grounded="true" entityUid="RJ45 Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.004</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Port Cover.step-1" uid="X5 Port Cover.step-1" grounded="true" entityUid="X5 Port Cover.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Top.step-1" uid="X5 Actuator Top.step-1" grounded="true" entityUid="X5 Actuator Top.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Body.step-1" uid="X5 Actuator Body.step-1" grounded="true" entityUid="X5 Actuator Body.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-1" uid="M3 BHCS, 25mm.step-1" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.044139680154989008 -0.0073000000000000009 0.014950000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-6" uid="M3 BHCS, 25mm.step-6" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018091948484125014 -0.029999999999999999 0.01495</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-2" uid="M3 BHCS, 25mm.step-2" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 0.014908051515876014 0.01495</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-8" uid="M3 BHCS, 25mm.step-8" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015791948484125018 0.033500000000000002 0.01495</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Input Mount Cover Assembly.step-1" uid="Input Mount Cover Assembly.step-1" grounded="true" entityUid="Input Mount Cover Assembly.step" rigid="true">
+<Transform>
+<Rotation>0 -1 0 0 0 -1 1 0 0</Rotation>
+<Translation>0.46908679697722999 -0.0023083136649499972 0.10348765968582301</Translation>
+</Transform>
+<Instance name="M2 SHCS, 8mm.step-1" uid="M2 SHCS, 8mm.step-1" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 -1.0000000000000001e-15 0 1.0000000000000001e-15 -1</Rotation>
+<Translation>-0.030340335953639996 0.0051113187299109963 -0.017463412498078</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 SHCS, 8mm.step-2" uid="M2 SHCS, 8mm.step-2" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 -1.0000000000000001e-15 -2.0000000000000002e-15 -1 0 -1.0000000000000001e-15 0 -1</Rotation>
+<Translation>-0.0010927125431119955 -0.020538158599598011 -0.017463412498077001</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 SHCS, 8mm.step-3" uid="M2 SHCS, 8mm.step-3" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 -1.0000000000000001e-15 -2.0000000000000002e-15 -1 0 -1.0000000000000001e-15 0 -1</Rotation>
+<Translation>0.028154910867415006 0.0051113187299109963 -0.017463412498077001</Translation>
+</Transform>
+</Instance>
+<Instance name="Input Mount Cover.step-1" uid="Input Mount Cover.step-1" grounded="true" entityUid="Input Mount Cover.step*:*Default">
+<Transform>
+<Rotation>0 -2.5000000000000001e-14 1 1 0 0 0 1 2.5000000000000001e-14</Rotation>
+<Translation>-0.0010927125431119955 0.0089618414004019875 -0.019963412498076996</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tube, 300mm.step-1" uid="Tube, 300mm.step-1" grounded="true" entityUid="Tube, 300mm.step*:*Default">
+<Transform>
+<Rotation>5e-15 0 1 0 1 0 -1 0 5e-15</Rotation>
+<Translation>0.147624955576828 -0.0022521065932130033 0.10239494714271198</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Wrist.step-1" uid="Wrist.step-1" entityUid="Wrist.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.22497057785100977 -0.057570063232092197 0.11763949374651189</Translation>
+</Transform>
+<Instance name="X5 Actuator.step-1" uid="X5 Actuator.step-1" grounded="true" entityUid="X5 Actuator.step" rigid="true">
+<Transform>
+<Rotation>-1 2.2699999999999999e-13 0 2.2699999999999999e-13 1 0 0 0 -1</Rotation>
+<Translation>0.46012495557683297 0.088705098833125995 0.044394947142711</Translation>
+</Transform>
+<Instance name="Power Port.step-1" uid="Power Port.step-1" grounded="true" entityUid="Power Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.004</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Body.step-1" uid="X5 Actuator Body.step-1" grounded="true" entityUid="X5 Actuator Body.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-4" uid="M3 BHCS, 25mm.step-4" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875015 -0.029999999999999999 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Bottom.step-1" uid="X5 Actuator Bottom.step-1" grounded="true" entityUid="X5 Actuator Bottom.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-7" uid="M3 BHCS, 25mm.step-7" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050139680154988986 0.029973665961010004 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="RJ45 Port.step-1" uid="RJ45 Port.step-1" grounded="true" entityUid="RJ45 Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.004</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-1" uid="M3 BHCS, 25mm.step-1" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.044139680154988981 -0.0073000000000000009 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Joint.step-1" uid="X5 Actuator Joint.step-1" grounded="true" entityUid="X5 Actuator Joint.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Top.step-1" uid="X5 Actuator Top.step-1" grounded="true" entityUid="X5 Actuator Top.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Port Cover.step-1" uid="X5 Port Cover.step-1" grounded="true" entityUid="X5 Port Cover.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-3" uid="M3 BHCS, 25mm.step-3" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000054 -0.014908051515876 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-2" uid="M3 BHCS, 25mm.step-2" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 0.014908051515874994 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-5" uid="M3 BHCS, 25mm.step-5" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515875015 0.029999999999999999 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-6" uid="M3 BHCS, 25mm.step-6" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018091948484124987 -0.029999999999999999 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-8" uid="M3 BHCS, 25mm.step-8" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.01579194848412499 0.033500000000000009 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LD 90 Deg Bracket, Left Assembly.step-1" uid="LD 90 Deg Bracket, Left Assembly.step-1" grounded="true" entityUid="LD 90 Deg Bracket, Left Assembly.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.46012495557682798 0.048705098833127 0.102394947142711</Translation>
+</Transform>
+<Instance name="M5 SHCS, 10mm.step-5" uid="M5 SHCS, 10mm.step-5" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>0.85970067298395181 0.51079815276774487 5.1079815276774479e-16 0 9.9999999999999988e-16 -1 -0.51079815276774487 0.85970067298395181 8.5970067298395169e-16</Rotation>
+<Translation>0.026000000000000023 0.0395 0.050000000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-1" uid="M5 SHCS, 10mm.step-1" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>0.99682511418859443 0.079622181098584044 0 0 1.0000000000000005e-15 -1 -0.079622181098584044 0.99682511418859443 9.9682511418859499e-16</Rotation>
+<Translation>-0.0080000000000000071 0.0395 0.064000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-2" uid="M5 SHCS, 12mm.step-2" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0.0056116092767859978 0.99998425479670661 0 0.99998425479670661 -0.0056116092767859978 0 0 0 -1</Rotation>
+<Translation>-0.0066969600663890072 -0.016167891818947011 -0.0060000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-4" uid="M5 SHCS, 10mm.step-4" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>0.96239672418530176 0.27164783319106395 2.7164783319106393e-16 0 9.9999999999999988e-16 -0.99999999999999989 -0.27164783319106395 0.96239672418530176 9.6239672418530155e-16</Rotation>
+<Translation>0.012000000000000011 0.0395 0.016</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-2" uid="M5 SHCS, 10mm.step-2" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>0.34181169596631 -0.939768463240087 0 0 0 -1 0.939768463240087 0.34181169596631 0</Rotation>
+<Translation>0.026000000000000023 0.0395 0.029999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-3" uid="M5 SHCS, 12mm.step-3" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.056317184391340029 0.99841292797230541 0 0.99841292797230541 0.056317184391340029 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0.0066969600663890072 -0.016167891818947011 -0.0060000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-4" uid="M5 SHCS, 12mm.step-4" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>-0.01616789181894801 -0.0066969600663890072 -0.0060000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-5" uid="M5 SHCS, 12mm.step-5" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.99873503777842998 0.050282445383237 0 0.050282445383237 0.99873503777842998 0 0 0 -1</Rotation>
+<Translation>0.0066969600663890072 0.016167891818947011 -0.0060000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-1" uid="M5 SHCS, 12mm.step-1" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0.93446855448041322 0.35604567219289007 9.3446855448041345e-16 0.35604567219289007 -0.93446855448041322 3.5604567219289017e-16 1.0000000000000003e-15 0 -1</Rotation>
+<Translation>-0.0066969600663890072 0.016167891818947011 -0.0060000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-7" uid="M5 SHCS, 12mm.step-7" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>0.01616789181894801 -0.0066969600663890072 -0.0060000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-3" uid="M5 SHCS, 10mm.step-3" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>0.8879784028437544 0.45988515531929824 4.598851553192985e-16 0 1.0000000000000005e-15 -1 -0.45988515531929824 0.8879784028437544 8.8797840284375479e-16</Rotation>
+<Translation>0.012000000000000011 0.0395 0.064000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-6" uid="M5 SHCS, 10mm.step-6" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>0.99615595341692198 0.087597468411037993 0 0 1.0000000000000001e-15 -1 -0.087597468411037993 0.99615595341692198 1.0000000000000001e-15</Rotation>
+<Translation>-0.0080000000000000071 0.0395 0.016</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-6" uid="M5 SHCS, 12mm.step-6" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0.99379591596832995 -0.111219051446539 1.0000000000000001e-15 -0.111219051446539 -0.99379591596832995 0 1.0000000000000001e-15 0 -1</Rotation>
+<Translation>0.01616789181894801 0.0066969600663890072 -0.0060000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Light Duty 90 Deg. Bracket - Left.step-1" uid="Light Duty 90 Deg. Bracket - Left.step-1" grounded="true" entityUid="Light Duty 90 Deg. Bracket - Left.step*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-8" uid="M5 SHCS, 12mm.step-8" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>0.32517940271283996 -0.94565234417904376 1.2708317468918836e-15 -0.94565234417904376 -0.32517940271283996 -6.2047294146620367e-16 9.9999999999999988e-16 -9.9999999999999988e-16 -1</Rotation>
+<Translation>-0.01616789181894801 0.0066969600663890072 -0.0060000000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Gripper Mechanics Assembly.step-1" uid="Gripper Mechanics Assembly.step-1" entityUid="Gripper Mechanics Assembly.step" rigid="true">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1.04744440165294e-14 -1 1 0 -3.4914813388431334e-15 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.23515437772582565 0.03113503560102801 0.15740916736624441</Translation>
+</Transform>
+<Instance name="Gripper Base.step-1" uid="Gripper Base.step-1" grounded="true" entityUid="Gripper Base.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.011424726477024 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Dowel Pin, 20mm.step-1" uid="M4 Dowel Pin, 20mm.step-1" grounded="true" entityUid="M4 Dowel Pin, 20mm.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.012500000000000001 0.02292472647702401 0</Translation>
+</Transform>
+</Instance>
+<Instance name="604-2Z Ball Bearing.step-1" uid="604-2Z Ball Bearing.step-1" grounded="true" entityUid="604-2Z Ball Bearing.step*:*Default">
+<Transform>
+<Rotation>-0.99903443437292372 0.043934029375555989 0 0 0 -0.99999999999999989 -0.043934029375555989 -0.99903443437292372 0</Rotation>
+<Translation>0 0.025885227037024006 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 SHCS, 8mm.step-6" uid="M2 SHCS, 8mm.step-6" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.999999999999999e-15 -9.9999999999999988e-16 -1.0000000000000001e-15 0 -1 2.9999999999999994e-15 1 0</Rotation>
+<Translation>-0.014142135623730998 0.011924726477024 -0.014142135623730984</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 Dowel Pin, 24mm.step-1" uid="M3 Dowel Pin, 24mm.step-1" grounded="true" entityUid="M3 Dowel Pin, 24mm.step*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0 0.021924726477024009 0.010000000000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 Dowel Pin, 24mm.step-2" uid="M3 Dowel Pin, 24mm.step-2" grounded="true" entityUid="M3 Dowel Pin, 24mm.step*:*Default">
+<Transform>
+<Rotation>0 0.98208185031913642 0.18845487330854888 -1 0 0 0 -0.18845487330854888 0.98208185031913642</Rotation>
+<Translation>0 0.021924726477023981 -0.0099999999999999811</Translation>
+</Transform>
+</Instance>
+<Instance name="Bracer.step-1" uid="Bracer.step-1" grounded="true" entityUid="Bracer.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.011424726477024 0</Translation>
+</Transform>
+</Instance>
+<Instance name="604-2Z Ball Bearing.step-2" uid="604-2Z Ball Bearing.step-2" grounded="true" entityUid="604-2Z Ball Bearing.step*:*Default">
+<Transform>
+<Rotation>0.88539500523585257 0.4648394181902008 0 0 0 -0.99999999999999978 -0.4648394181902008 0.88539500523585257 0</Rotation>
+<Translation>0 -0.0015752735229760118 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Round Shim.step-3" uid="M4 Round Shim.step-3" grounded="true" entityUid="M4 Round Shim.step*:*Default">
+<Transform>
+<Rotation>0.089531477264803039 0 0.99598399313381647 -0.99598399313381647 0 0.089531477264803039 0 -1 0</Rotation>
+<Translation>0.012500000000000008 0.02292472647702401 -0.0059999999999999776</Translation>
+</Transform>
+</Instance>
+<Instance name="Compression Spring, 19mm, 7.5 OD, 5.6 ID.step-1" uid="Compression Spring, 19mm, 7.5 OD, 5.6 ID.step-1" grounded="true" entityUid="Compression Spring, 19mm, 7.5 OD, 5.6 ID.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0018852270370240121 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Round Shim.step-4" uid="M4 Round Shim.step-4" grounded="true" entityUid="M4 Round Shim.step*:*Default">
+<Transform>
+<Rotation>-0.208553347407823 0 0.97801099241521405 0.97801099241521405 0 0.208553347407823 0 1 0</Rotation>
+<Translation>0.012500000000000008 0.02292472647702401 0.0060000000000000331</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable Housing Adapter.step-1" uid="Cable Housing Adapter.step-1" grounded="true" entityUid="Cable Housing Adapter.step*:*Default">
+<Transform>
+<Rotation>-0.75948305982395403 0 -0.65052708002084303 0 -1 0 -0.65052708002084303 0 0.75948305982395403</Rotation>
+<Translation>0 0.0044247264770239936 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Round Shim.step-1" uid="M4 Round Shim.step-1" grounded="true" entityUid="M4 Round Shim.step*:*Default">
+<Transform>
+<Rotation>-0.19597530606486599 0 0.98060883098857599 -0.98060883098857599 0 -0.19597530606486599 0 -1 0</Rotation>
+<Translation>-0.012500000000000001 0.02292472647702401 -0.0059999999999999776</Translation>
+</Transform>
+</Instance>
+<Instance name="Spring Tooth Driver.step-1" uid="Spring Tooth Driver.step-1" grounded="true" entityUid="Spring Tooth Driver.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.020867227037024011 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 SHCS, 8mm.step-1" uid="M2 SHCS, 8mm.step-1" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.014142135623730994 0.011924726477024028 0.014142135623731011</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-2" uid="M5 SHCS, 8mm.step-2" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000005e-15 -1 0 1 1.0000000000000005e-15</Rotation>
+<Translation>-0.0066969600663890003 0.004924726477023994 -0.016167891818947983</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Dowel Pin, 20mm.step-2" uid="M4 Dowel Pin, 20mm.step-2" grounded="true" entityUid="M4 Dowel Pin, 20mm.step*:*Default">
+<Transform>
+<Rotation>0 -0.94716171375823199 -0.32075643094187301 0 -0.32075643094187301 0.94716171375823199 -1 0 0</Rotation>
+<Translation>0.012500000000000001 0.02292472647702401 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-3" uid="M5 SHCS, 8mm.step-3" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000005e-15 -1 0 1 1.0000000000000005e-15</Rotation>
+<Translation>0.0066969600663890037 0.004924726477023994 0.01616789181894801</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-4" uid="M5 SHCS, 8mm.step-4" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000005e-15 -1 0 1 1.0000000000000005e-15</Rotation>
+<Translation>-0.0066969600663889968 0.004924726477023994 0.016167891818948038</Translation>
+</Transform>
+</Instance>
+<Instance name="Gripper Cover.step-1" uid="Gripper Cover.step-1" grounded="true" entityUid="Gripper Cover.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.015924726477024004 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 SHCS, 8mm.step-2" uid="M2 SHCS, 8mm.step-2" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0 0.011924726477024 0.020000000000000018</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 SHCS, 8mm.step-3" uid="M2 SHCS, 8mm.step-3" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 -9.9999999999999988e-16 -1.0000000000000001e-15 0 -1 2.0000000000000005e-15 1 0</Rotation>
+<Translation>0.014142135623731001 0.011924726477024028 0.014142135623731011</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Round Shim.step-2" uid="M4 Round Shim.step-2" grounded="true" entityUid="M4 Round Shim.step*:*Default">
+<Transform>
+<Rotation>-0.41789045629657801 0 0.90849742241584697 0.90849742241584697 0 0.41789045629657801 0 1 0</Rotation>
+<Translation>-0.012500000000000001 0.02292472647702401 0.0060000000000000331</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 8mm.step-1" uid="M5 SHCS, 8mm.step-1" grounded="true" entityUid="M5 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000005e-15 -1 0 1 1.0000000000000005e-15</Rotation>
+<Translation>0.0066969600663890037 0.004924726477023994 -0.016167891818947927</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 SHCS, 8mm.step-4" uid="M2 SHCS, 8mm.step-4" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 0 0 0 -1 2.0000000000000002e-15 1 0</Rotation>
+<Translation>0.014142135623731001 0.011924726477024 -0.014142135623730984</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 SHCS, 8mm.step-5" uid="M2 SHCS, 8mm.step-5" grounded="true" entityUid="M2 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 -2.0000000000000002e-15 -9.9999999999999988e-16 -1.0000000000000001e-15 0 -1 2.0000000000000005e-15 1 0</Rotation>
+<Translation>0 0.011924726477024028 -0.01999999999999999</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Claw, 2-Finger Assembly.step-1" uid="Claw, 2-Finger Assembly.step-1" entityUid="Claw, 2-Finger Assembly.step" rigid="true">
+<Transform>
+<Rotation>3.4914813388431334e-15 1 -6.9829626776862667e-15 1 -3.4914813388431334e-15 0 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>0.23920492477172015 0.031135035601028926 0.17713444088922164</Translation>
+</Transform>
+<Instance name="M3 SHCS, 8mm.step-1" uid="M3 SHCS, 8mm.step-1" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 4.1129999999999999e-12 -1.0000000000000001e-15 -1.0000000000000001e-15 2.0000000000000002e-15 -1 -4.1129999999999999e-12 1 2.0000000000000002e-15</Rotation>
+<Translation>-0.037499898138164997 -0.003850547045894992 0.042721365828235991</Translation>
+</Transform>
+</Instance>
+<Instance name="Toothed Finger.step-1" uid="Toothed Finger.step-1" grounded="true" entityUid="Toothed Finger.step*:*Default">
+<Transform>
+<Rotation>-0.99999592552655203 0.0028546331278899999 1.0000000000000001e-15 9.9999999999999988e-16 2.0000000000000002e-15 1 0.0028546331278899999 0.99999592552655203 -2.0000000000000002e-15</Rotation>
+<Translation>-0.012500000000002003 -0.0040505470458949699 0.042649999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="Claw, 2-Finger.step-1" uid="Claw, 2-Finger.step-1" grounded="true" entityUid="Claw, 2-Finger.step*:*Default">
+<Transform>
+<Rotation>0.0028546331317439995 -0.99999592552654093 -9.9714129239479675e-16 1.0000000000000005e-15 9.9999999999999988e-16 -1 0.99999592552654093 0.0028546331317439995 1.0028505586582857e-15</Rotation>
+<Translation>-0.053968429944904001 -0.0040505470458949699 0.053768422455701001</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Sleeve Bearing.step-1" uid="M4 Sleeve Bearing.step-1" grounded="true" entityUid="M4 Sleeve Bearing.step*:*Default">
+<Transform>
+<Rotation>1 1.0000000000000003e-15 -1.0000000000000001e-15 -9.9999999999999988e-16 2.0000000000000009e-15 -1 -1.0000000000000001e-15 1 2.0000000000000002e-15</Rotation>
+<Translation>-0.012500000000001999 -0.0010505470458949673 0.042649999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-2" uid="M3 SHCS, 8mm.step-2" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 4.1129999999999999e-12 -1.0000000000000001e-15 -1.0000000000000001e-15 2.0000000000000002e-15 -1 -4.1129999999999999e-12 1 2.0000000000000002e-15</Rotation>
+<Translation>-0.027499938882900001 -0.0038505470458949642 0.042692819496918</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-4" uid="M3 SHCS, 8mm.step-4" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 -4.1129999999999999e-12 1.0000000000000001e-15 -1.0000000000000001e-15 -2.0000000000000002e-15 1 -4.1129999999999999e-12 -1 -2.0000000000000002e-15</Rotation>
+<Translation>-0.027499938882900005 -0.0044505470458949814 0.042692819496918</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-3" uid="M3 SHCS, 8mm.step-3" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>1 -4.1129999999999999e-12 1.0000000000000001e-15 -1.0000000000000001e-15 -2.0000000000000002e-15 1 -4.1129999999999999e-12 -1 -2.0000000000000002e-15</Rotation>
+<Translation>-0.037499898138164997 -0.0044505470458949814 0.042721365828235991</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Sleeve Bearing.step-2" uid="M4 Sleeve Bearing.step-2" grounded="true" entityUid="M4 Sleeve Bearing.step*:*Default">
+<Transform>
+<Rotation>1 1.0000000000000003e-15 -1.0000000000000001e-15 -9.9999999999999988e-16 2.0000000000000009e-15 -1 -1.0000000000000001e-15 1 2.0000000000000002e-15</Rotation>
+<Translation>-0.012500000000001999 -0.0070505470458949726 0.042650000000000021</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Claw, 1-Finger Assembly.step-1" uid="Claw, 1-Finger Assembly.step-1" entityUid="Claw, 1-Finger Assembly.step" rigid="true">
+<Transform>
+<Rotation>3.4914813388431334e-15 1 -6.9829626776862667e-15 1 -3.4914813388431334e-15 0 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>0.23920492477172031 0.031135035601028788 0.17713444088922128</Translation>
+</Transform>
+<Instance name="M4 Sleeve Bearing.step-2" uid="M4 Sleeve Bearing.step-2" grounded="true" entityUid="M4 Sleeve Bearing.step*:*Default">
+<Transform>
+<Rotation>-0.3207564309418719 -0.94716171375823266 0 0 0 -1.0000000000000002 0.94716171375823266 -0.3207564309418719 0</Rotation>
+<Translation>0.012499999999998002 -0.0070505470458949726 0.042649999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-4" uid="M3 SHCS, 8mm.step-4" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>-1 4.1109999999999997e-12 0 0 0 -1 -4.1109999999999997e-12 -1 0</Rotation>
+<Translation>0.027499938882900001 -0.003850547045894992 0.042692819496918</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 Sleeve Bearing.step-1" uid="M4 Sleeve Bearing.step-1" grounded="true" entityUid="M4 Sleeve Bearing.step*:*Default">
+<Transform>
+<Rotation>-0.23950309655531901 -0.970895600330135 -2.3950309655531923e-16 1.0000000000000005e-15 0 -0.99999999999999978 0.970895600330135 -0.23950309655531901 9.708956003301352e-16</Rotation>
+<Translation>0.012499999999998002 -0.0010505470458949673 0.042649999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="Toothed Finger.step-1" uid="Toothed Finger.step-1" grounded="true" entityUid="Toothed Finger.step*:*Default">
+<Transform>
+<Rotation>0.99999592552655203 -0.0028546331278880002 0 0 1.0000000000000005e-15 -1 0.0028546331278880002 0.99999592552655203 1.0000000000000005e-15</Rotation>
+<Translation>0.012499999999997995 -0.0040505470458949699 0.042649999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="Claw, 1-Finger.step-1" uid="Claw, 1-Finger.step-1" grounded="true" entityUid="Claw, 1-Finger.step*:*Default">
+<Transform>
+<Rotation>0.002854633131745 0.99999592552654104 -1.0000000000000005e-15 9.9999999999999968e-16 9.9999999999999988e-16 1 0.99999592552654104 -0.002854633131745 -1.0000000000000005e-15</Rotation>
+<Translation>0.054031231873799004 -0.0040505470458949977 0.053617126899719009</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-1" uid="M3 SHCS, 8mm.step-1" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>-1 4.1109999999999997e-12 0 0 0 -1 -4.1109999999999997e-12 -1 0</Rotation>
+<Translation>0.037499898138165996 -0.003850547045894992 0.042721365828235991</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-3" uid="M3 SHCS, 8mm.step-3" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>-1 -4.1109999999999997e-12 0 0 0 1 -4.1109999999999997e-12 1 0</Rotation>
+<Translation>0.027499938882900001 -0.0044505470458949814 0.042692819496918</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-2" uid="M3 SHCS, 8mm.step-2" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>-1 -4.1109999999999997e-12 0 0 0 1 -4.1109999999999997e-12 1 0</Rotation>
+<Translation>0.037499898138165996 -0.0044505470458950092 0.042721365828235991</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Gripper Spool Assembly.step-1" uid="Gripper Spool Assembly.step-1" entityUid="Gripper Spool Assembly.step" rigid="true">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>0.035154377725817566 -0.079822169825312053 0.22003444088922633</Translation>
+</Transform>
+<Instance name="Spool Housing Assembly.step-1" uid="Spool Housing Assembly.step-1" grounded="true" entityUid="Spool Housing Assembly.step" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 -1 0 1 0 0</Rotation>
+<Translation>-1.948484123992511e-06 -0.035150000000000001 0</Translation>
+</Transform>
+<Instance name="Spool Housing.step-1" uid="Spool Housing.step-1" grounded="true" entityUid="Spool Housing.step*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 35mm.step-1" uid="M3 SHCS, 35mm.step-1" grounded="true" entityUid="M3 SHCS, 35mm.step*:*Default">
+<Transform>
+<Rotation>0.92376008229199846 0.38297168350137917 0 0 0 -1.0000000000000002 -0.38297168350137917 0.92376008229199846 0</Rotation>
+<Translation>-0.015789999999999998 -0.034550999999998999 0.033500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable Housing End Cap.step-1" uid="Cable Housing End Cap.step-1" grounded="true" entityUid="Cable Housing End Cap.step*:*Default">
+<Transform>
+<Rotation>0 1 0 -0.33642282959062086 0 -0.94171103833938363 -0.94171103833938363 0 0.33642282959062086</Rotation>
+<Translation>0.020000000000000004 0 0.022999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 35mm.step-2" uid="M3 SHCS, 35mm.step-2" grounded="true" entityUid="M3 SHCS, 35mm.step*:*Default">
+<Transform>
+<Rotation>0.92376008229199846 0.38297168350137917 0 0 0 -1.0000000000000002 -0.38297168350137917 0.92376008229199846 0</Rotation>
+<Translation>0.029999999999999999 -0.034550999999998999 -0.014910000000000007</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 35mm.step-3" uid="M3 SHCS, 35mm.step-3" grounded="true" entityUid="M3 SHCS, 35mm.step*:*Default">
+<Transform>
+<Rotation>0.92376008229199846 0.38297168350137917 0 0 0 -1.0000000000000002 -0.38297168350137917 0.92376008229199846 0</Rotation>
+<Translation>-0.018089999999999998 -0.034550999999998999 -0.029999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 35mm.step-4" uid="M3 SHCS, 35mm.step-4" grounded="true" entityUid="M3 SHCS, 35mm.step*:*Default">
+<Transform>
+<Rotation>0.92376008229199846 0.38297168350137917 0 0 0 -1.0000000000000002 -0.38297168350137917 0.92376008229199846 0</Rotation>
+<Translation>0.029999999999999999 -0.034550999999998999 0.014910000000000007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="X5 Actuator.step-1" uid="X5 Actuator.step-1" grounded="true" entityUid="X5 Actuator.step" rigid="true">
+<Transform>
+<Rotation>1.0000000000000001e-15 1 1.0000000000000001e-15 0 1.0000000000000001e-15 -1 -1 1.0000000000000001e-15 0</Rotation>
+<Translation>0 -0.014999999999999999 0</Translation>
+</Transform>
+<Instance name="X5 Actuator Bottom.step-1" uid="X5 Actuator Bottom.step-1" grounded="true" entityUid="X5 Actuator Bottom.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Port Cover.step-1" uid="X5 Port Cover.step-1" grounded="true" entityUid="X5 Port Cover.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Joint.step-1" uid="X5 Actuator Joint.step-1" grounded="true" entityUid="X5 Actuator Joint.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Power Port.step-1" uid="Power Port.step-1" grounded="true" entityUid="Power Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.004</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-4" uid="M3 BHCS, 25mm.step-4" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515876 -0.029999999999999971 0.014950000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-5" uid="M3 BHCS, 25mm.step-5" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014908051515876 0.030000000000000027 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-3" uid="M3 BHCS, 25mm.step-3" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 -0.014908051515875986 0.014950000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-7" uid="M3 BHCS, 25mm.step-7" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050139680154989 0.029973665961010004 0.014949999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-2" uid="M3 BHCS, 25mm.step-2" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 0.014908051515876014 0.014950000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="RJ45 Port.step-1" uid="RJ45 Port.step-1" grounded="true" entityUid="RJ45 Port.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.004</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Top.step-1" uid="X5 Actuator Top.step-1" grounded="true" entityUid="X5 Actuator Top.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-1" uid="M3 BHCS, 25mm.step-1" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.044139680154989001 -0.0072999999999999732 0.014950000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="X5 Actuator Body.step-1" uid="X5 Actuator Body.step-1" grounded="true" entityUid="X5 Actuator Body.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-6" uid="M3 BHCS, 25mm.step-6" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018091948484124001 -0.030000000000000027 0.014950000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 BHCS, 25mm.step-8" uid="M3 BHCS, 25mm.step-8" grounded="true" entityUid="M3 BHCS, 25mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015791948484124001 0.033500000000000002 0.014950000000000005</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Housing Mid-Tube Mount Assembly.step-1" uid="Housing Mid-Tube Mount Assembly.step-1" grounded="true" entityUid="Housing Mid-Tube Mount Assembly.step" rigid="true">
+<Transform>
+<Rotation>0 1 0 0 0 1 1 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="M5 SHCS, 16mm.step-7" uid="M5 SHCS, 16mm.step-7" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>0.85130985569909801 0.52466325351560605 0 0.52466325351560605 -0.85130985569909801 0 0 0 -1</Rotation>
+<Translation>-0.018500000000000998 0.01949999999999999 0.011499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-4" uid="M5 SHCS, 10mm.step-4" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.012000000000000004 0.023999999999999994 0.0030000000000000027</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-6" uid="M5 SHCS, 16mm.step-6" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>0.85130985569909801 0.52466325351560605 0 0.52466325351560605 -0.85130985569909801 0 0 0 -1</Rotation>
+<Translation>-0.030500000000000999 0.019499999999999962 0.011499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-4" uid="M5 SHCS, 16mm.step-4" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>0.923728021347068 0.38304900806323799 0 0.38304900806323799 -0.923728021347068 0 0 0 -1</Rotation>
+<Translation>0.018499999999998996 -0.019500000000000017 0.011499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 Dowel Pin, 6mm.step-2" uid="M2 Dowel Pin, 6mm.step-2" grounded="true" entityUid="M2 Dowel Pin, 6mm.step*:*Default">
+<Transform>
+<Rotation>0 0.15855275326348894 0.98735050738456964 0 -0.98735050738456964 0.15855275326348894 1 0 0</Rotation>
+<Translation>0.025000000000000001 0 0.0030000000000000027</Translation>
+</Transform>
+</Instance>
+<Instance name="Tube Clamp.step-2" uid="Tube Clamp.step-2" grounded="true" entityUid="Tube Clamp.step*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0.024500000000000001 0 0.020000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Housing Mid-Tube Mount.step-1" uid="Housing Mid-Tube Mount.step-1" grounded="true" entityUid="Housing Mid-Tube Mount.step*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>0 0 0.0025000000000000022</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-1" uid="M5 SHCS, 16mm.step-1" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>0.923728021347068 0.38304900806323799 0 0.38304900806323799 -0.923728021347068 0 0 0 -1</Rotation>
+<Translation>0.030499999999999014 -0.01949999999999999 0.011499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="Tube Clamp.step-1" uid="Tube Clamp.step-1" grounded="true" entityUid="Tube Clamp.step*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>-0.024500000000000001 0 0.020000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-2" uid="M5 SHCS, 16mm.step-2" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>0.923728021347068 0.38304900806323799 0 0.38304900806323799 -0.923728021347068 0 0 0 -1</Rotation>
+<Translation>0.018499999999998996 0.01949999999999999 0.011499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-5" uid="M5 SHCS, 16mm.step-5" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>0.85130985569909801 0.52466325351560605 0 0.52466325351560605 -0.85130985569909801 0 0 0 -1</Rotation>
+<Translation>-0.018500000000000995 -0.019500000000000017 0.011499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="M2 Dowel Pin, 6mm.step-1" uid="M2 Dowel Pin, 6mm.step-1" grounded="true" entityUid="M2 Dowel Pin, 6mm.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 -1 0 1 0 0</Rotation>
+<Translation>-0.025000000000000001 0 0.0030000000000000027</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-8" uid="M5 SHCS, 16mm.step-8" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>0.85130985569909801 0.52466325351560605 0 0.52466325351560605 -0.85130985569909801 0 0 0 -1</Rotation>
+<Translation>-0.030500000000000995 -0.019500000000000017 0.011499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-2" uid="M5 SHCS, 10mm.step-2" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.012000000000000004 -0.024000000000000021 0.0030000000000000027</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 16mm.step-3" uid="M5 SHCS, 16mm.step-3" grounded="true" entityUid="M5 SHCS, 16mm.step*:*Default">
+<Transform>
+<Rotation>0.923728021347068 0.38304900806323799 0 0.38304900806323799 -0.923728021347068 0 0 0 -1</Rotation>
+<Translation>0.030499999999999014 0.01949999999999999 0.011499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-1" uid="M5 SHCS, 10mm.step-1" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0080000000000000002 -0.023999999999999994 0.0030000000000000027</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 10mm.step-3" uid="M5 SHCS, 10mm.step-3" grounded="true" entityUid="M5 SHCS, 10mm.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0079999999999999967 0.023999999999999994 0.0030000000000000027</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Spool Assembly.step-1" uid="Spool Assembly.step-1" entityUid="Spool Assembly.step" rigid="true">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>0.035154377725818239 -0.079672169825312417 0.220034440889226</Translation>
+</Transform>
+<Instance name="M5 SHCS, 12mm.step-2" uid="M5 SHCS, 12mm.step-2" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.31615642169588093 -0.94870707651016084 -3.161564216958809e-16 -9.9999999999999988e-16 0 0.99999999999999989 -0.94870707651016084 0.31615642169588093 -9.4870707651016073e-16</Rotation>
+<Translation>0.0064843585450939933 -0.0252 0.016253547954915001</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-2" uid="M3 SHCS, 8mm.step-2" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>-0.3403147197787269 0.94031159277227172 3.4031471977872682e-16 9.9999999999999968e-16 0 1 0.94031159277227172 0.3403147197787269 -9.403115927722714e-16</Rotation>
+<Translation>-0.015001948484125005 -0.031200000000000006 0.00025000000000000716</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-4" uid="M5 SHCS, 12mm.step-4" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.31615642169588093 -0.94870707651016084 -3.161564216958809e-16 -9.9999999999999988e-16 0 0.99999999999999989 -0.94870707651016084 0.31615642169588093 -9.4870707651016073e-16</Rotation>
+<Translation>-0.0069084307761670127 -0.0252 0.016079505662479003</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-3" uid="M3 SHCS, 8mm.step-3" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>-0.3403147197787269 0.94031159277227172 3.4031471977872682e-16 9.9999999999999968e-16 0 1 0.94031159277227172 0.3403147197787269 -9.403115927722714e-16</Rotation>
+<Translation>0.0019980515158760093 -0.031200000000000006 0.00025000000000000022</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-3" uid="M5 SHCS, 12mm.step-3" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.31615642169588093 -0.94870707651016084 -3.161564216958809e-16 -9.9999999999999988e-16 0 0.99999999999999989 -0.94870707651016084 0.31615642169588093 -9.4870707651016073e-16</Rotation>
+<Translation>-0.0064882555133420061 -0.0252 -0.016253547954914998</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable Clamp.step-1" uid="Cable Clamp.step-1" grounded="true" entityUid="Cable Clamp.step*:*Default">
+<Transform>
+<Rotation>-1.0000000000000005e-15 2.0000000000000002e-15 -1 -1.0000000000000001e-15 -1 -2.0000000000000002e-15 -1 1.0000000000000001e-15 1.0000000000000005e-15</Rotation>
+<Translation>-0.0065019484841239983 -0.037199999999999997 -0.0032499999999999959</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 SHCS, 8mm.step-1" uid="M3 SHCS, 8mm.step-1" grounded="true" entityUid="M3 SHCS, 8mm.step*:*Default">
+<Transform>
+<Rotation>-0.3403147197787269 0.94031159277227172 3.4031471977872682e-16 9.9999999999999968e-16 0 1 0.94031159277227172 0.3403147197787269 -9.403115927722714e-16</Rotation>
+<Translation>-0.006501948484124026 -0.031200000000000006 -0.0067499999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 SHCS, 12mm.step-1" uid="M5 SHCS, 12mm.step-1" grounded="true" entityUid="M5 SHCS, 12mm.step*:*Default">
+<Transform>
+<Rotation>-0.31615642169588093 -0.94870707651016084 -3.161564216958809e-16 -9.9999999999999988e-16 0 0.99999999999999989 -0.94870707651016084 0.31615642169588093 -9.4870707651016073e-16</Rotation>
+<Translation>0.006904533807919 -0.0252 -0.016079505662478996</Translation>
+</Transform>
+</Instance>
+<Instance name="Spool.step-1" uid="Spool.step-1" grounded="true" entityUid="Spool.step*:*Default">
+<Transform>
+<Rotation>0 2.0000000000000002e-15 -1 -1.0000000000000001e-15 -1 -2.0000000000000002e-15 -1 1.0000000000000001e-15 1.0000000000000005e-15</Rotation>
+<Translation>-1.948484123992511e-06 -0.031200000000000006 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base.step-1</Uid>
+<Uid>X8 Actuator.step-1</Uid>
+<Uid>X8 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>-3.8857805861880479e-16 1.6653345369377348e-16 0.022049999999999986</Position>
+<Axis>-3.8857805861871003e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Shoulder Base.step-1</Uid>
+<Uid>Shoulder Base Bracket Assembly.step-1</Uid>
+<Uid>Double Heavy Bracket Bottom.step-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base.step-1</Uid>
+<Uid>X8 Actuator.step-1</Uid>
+<Uid>X8 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 1.1102230246251565e-16 0.019050000000000011</Position>
+<Axis>-3.8857805861871003e-16 -1.9428902930940548e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Shoulder Base.step-1</Uid>
+<Uid>Shoulder Base Bracket Assembly.step-1</Uid>
+<Uid>Double Heavy Bracket Bottom.step-1</Uid>
+</InstancePath>
+<Position>0 -0.0050010000000000054 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Shoulder Base.step-1</Uid>
+<Uid>X8 Actuator_1.step-1</Uid>
+<Uid>X8 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>-3.8857805861880479e-16 1.6653345369377348e-16 0.022050000000000014</Position>
+<Axis>-3.8857805861871003e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Shoulder Appendage.step-1</Uid>
+<Uid>Shoulder Appendage Bracket Assembly.step-1</Uid>
+<Uid>Adapter Plate.step-1</Uid>
+</InstancePath>
+<Position>0 -0.0060000000000000053 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Shoulder Base.step-1</Uid>
+<Uid>X8 Actuator_1.step-1</Uid>
+<Uid>X8 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 1.1102230246251565e-16 0.019050000000000011</Position>
+<Axis>-3.8857805861871003e-16 -1.9428902930940555e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Shoulder Appendage.step-1</Uid>
+<Uid>Shoulder Appendage Bracket Assembly.step-1</Uid>
+<Uid>Adapter Plate.step-1</Uid>
+</InstancePath>
+<Position>0 -0.0060010000000000063 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Shoulder Appendage.step-1</Uid>
+<Uid>X8 Actuator.step-1</Uid>
+<Uid>X8 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>-3.9551695252271202e-16 1.6653345369377348e-16 0.02205</Position>
+<Axis>-3.8857805861871018e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Elbow.step-1</Uid>
+<Uid>In-Line Tube Assembly.step-1</Uid>
+<Uid>Output In-Line Tube Adapter.step-1</Uid>
+</InstancePath>
+<Position>0 -0.017500000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Shoulder Appendage.step-1</Uid>
+<Uid>X8 Actuator.step-1</Uid>
+<Uid>X8 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>-2.1510571102112408e-16 1.1102230246251565e-16 0.019049999999999997</Position>
+<Axis>-3.8857805861871032e-16 -1.9428902930940548e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Elbow.step-1</Uid>
+<Uid>In-Line Tube Assembly.step-1</Uid>
+<Uid>Output In-Line Tube Adapter.step-1</Uid>
+</InstancePath>
+<Position>0 -0.017500000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Elbow.step-1</Uid>
+<Uid>X5 Actuator.step-1</Uid>
+<Uid>X5 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.016050000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wrist.step-1</Uid>
+<Uid>LD 90 Deg Bracket, Left Assembly.step-1</Uid>
+<Uid>Light Duty 90 Deg. Bracket - Left.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.1102230246251601e-15 -1 -1.6718711121782902e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Elbow.step-1</Uid>
+<Uid>X5 Actuator.step-1</Uid>
+<Uid>X5 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.013050000000000003</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wrist.step-1</Uid>
+<Uid>LD 90 Deg Bracket, Left Assembly.step-1</Uid>
+<Uid>Light Duty 90 Deg. Bracket - Left.step-1</Uid>
+</InstancePath>
+<Position>0 -9.9999999999926537e-07 0</Position>
+<Axis>1.11022302462515e-15 1 -1.6718711121782902e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wrist.step-1</Uid>
+<Uid>X5 Actuator.step-1</Uid>
+<Uid>X5 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.016050000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gripper Mechanics Assembly.step-1</Uid>
+<Uid>Gripper Base.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wrist.step-1</Uid>
+<Uid>X5 Actuator.step-1</Uid>
+<Uid>X5 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.013050000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper Mechanics Assembly.step-1</Uid>
+<Uid>Gripper Base.step-1</Uid>
+</InstancePath>
+<Position>0 -0.0015000000000000013 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gripper Mechanics Assembly.step-1</Uid>
+<Uid>M4 Round Shim.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Claw, 2-Finger Assembly.step-1</Uid>
+<Uid>Toothed Finger.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper Mechanics Assembly.step-1</Uid>
+<Uid>M4 Dowel Pin, 20mm.step-1</Uid>
+</InstancePath>
+<Position>-0.01100000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Claw, 2-Finger Assembly.step-1</Uid>
+<Uid>Toothed Finger.step-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gripper Mechanics Assembly.step-1</Uid>
+<Uid>M4 Round Shim.step-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Claw, 1-Finger Assembly.step-1</Uid>
+<Uid>Toothed Finger.step-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper Mechanics Assembly.step-1</Uid>
+<Uid>M4 Dowel Pin, 20mm.step-2</Uid>
+</InstancePath>
+<Position>-0.01100000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Claw, 1-Finger Assembly.step-1</Uid>
+<Uid>Toothed Finger.step-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Elbow.step-1</Uid>
+<Uid>Tube, 300mm.step-1</Uid>
+</InstancePath>
+<Position>4.7184478546569153e-16 -0.015876000000000001 0.087499999999999994</Position>
+<Axis>2.2204460492503099e-16 1 1.6653345369377397e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper Spool Assembly.step-1</Uid>
+<Uid>Housing Mid-Tube Mount Assembly.step-1</Uid>
+<Uid>M2 Dowel Pin, 6mm.step-1</Uid>
+</InstancePath>
+<Position>-0.0026499999999999996 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Elbow.step-1</Uid>
+<Uid>Tube, 300mm.step-1</Uid>
+</InstancePath>
+<Position>-1.3877787807814457e-16 0 0.29999999999999999</Position>
+<Axis>1.1102230246251565e-16 1.11022302462516e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper Spool Assembly.step-1</Uid>
+<Uid>Housing Mid-Tube Mount Assembly.step-1</Uid>
+<Uid>Housing Mid-Tube Mount.step-1</Uid>
+</InstancePath>
+<Position>0.035999999999999997 0 0.017500000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gripper Spool Assembly.step-1</Uid>
+<Uid>X5 Actuator.step-1</Uid>
+<Uid>X5 Actuator Joint.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.016049999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spool Assembly.step-1</Uid>
+<Uid>Spool.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper Spool Assembly.step-1</Uid>
+<Uid>Spool Housing Assembly.step-1</Uid>
+<Uid>Spool Housing.step-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Spool Assembly.step-1</Uid>
+<Uid>Spool.step-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Base.step" uid="Base.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Base.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="T-Slot Adapter Plate Assembly.step" uid="T-Slot Adapter Plate Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="T-Slot Adapter Plate Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="X8 Actuator.step" uid="X8 Actuator.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="X8 Actuator.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Shoulder Base.step" uid="Shoulder Base.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Shoulder Base.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Shoulder Base Bracket Assembly.step" uid="Shoulder Base Bracket Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Shoulder Base Bracket Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="X8 Actuator_1.step" uid="X8 Actuator_1.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="X8 Actuator_1.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Shoulder Appendage.step" uid="Shoulder Appendage.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Shoulder Appendage.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Shoulder Appendage Bracket Assembly.step" uid="Shoulder Appendage Bracket Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Shoulder Appendage Bracket Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Elbow.step" uid="Elbow.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Elbow.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="In-Line Tube Assembly.step" uid="In-Line Tube Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="In-Line Tube Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Housing Tube Mount Assembly.step" uid="Housing Tube Mount Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Housing Tube Mount Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="X5 Actuator.step" uid="X5 Actuator.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="X5 Actuator.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Input Mount Cover Assembly.step" uid="Input Mount Cover Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Input Mount Cover Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Wrist.step" uid="Wrist.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Wrist.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="LD 90 Deg Bracket, Left Assembly.step" uid="LD 90 Deg Bracket, Left Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="LD 90 Deg Bracket, Left Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Gripper Mechanics Assembly.step" uid="Gripper Mechanics Assembly.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Gripper Mechanics Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Claw, 2-Finger Assembly.step" uid="Claw, 2-Finger Assembly.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Claw, 2-Finger Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Claw, 1-Finger Assembly.step" uid="Claw, 1-Finger Assembly.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Claw, 1-Finger Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Gripper Spool Assembly.step" uid="Gripper Spool Assembly.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Gripper Spool Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Spool Housing Assembly.step" uid="Spool Housing Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Spool Housing Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Housing Mid-Tube Mount Assembly.step" uid="Housing Mid-Tube Mount Assembly.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Housing Mid-Tube Mount Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Spool Assembly.step" uid="Spool Assembly.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Spool Assembly.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="604-2Z Ball Bearing.step" uid="604-2Z Ball Bearing.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="604-2Z Ball Bearing.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00036755731821383074</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>4.2224822880798521e-09 4.222482288079853e-09 7.4328443839994958e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="604-2Z Ball Bearing.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Adapter Plate.step" uid="Adapter Plate.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Adapter Plate.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.043446767429913796</Mass>
+<CenterOfMass>-0.040254405830778099 -0.00092230173358401986 2.379119431546507e-08</CenterOfMass>
+<Inertia>1.0750451241213137e-05 5.1838753298831835e-05 4.2020909471788821e-05 -1.8657939147619773e-11 -2.8820214395732031e-11 2.505199713909543e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Adapter Plate.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bracer.step" uid="Bracer.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bracer.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015690307517235785</Mass>
+<CenterOfMass>0 -0.023025000000000004 0</CenterOfMass>
+<Inertia>5.3498406834226157e-08 5.6490203086616107e-08 5.3498406834226164e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bracer.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable Clamp.step" uid="Cable Clamp.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable Clamp.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015957488011664131</Mass>
+<CenterOfMass>0.00025817138594632185 0.0021173051634031446 0</CenterOfMass>
+<Inertia>8.4605110482363701e-08 1.0839026110814222e-07 3.2473815321838434e-08 0 0 -4.1075197925263832e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Cable Clamp.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable Housing Adapter.step" uid="Cable Housing Adapter.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable Housing Adapter.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00053594454774980992</Mass>
+<CenterOfMass>0 0.014025229167529 0</CenterOfMass>
+<Inertia>1.8765260108101018e-08 5.228140982380651e-09 1.8765260108101018e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cable Housing Adapter.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable Housing End Cap.step" uid="Cable Housing End Cap.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable Housing End Cap.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0217269756035229e-05</Mass>
+<CenterOfMass>0 0.0050186647736652733 0</CenterOfMass>
+<Inertia>5.9940759213002018e-10 2.6972282110725572e-10 5.9940759213002018e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cable Housing End Cap.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Claw, 1-Finger.step" uid="Claw, 1-Finger.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Claw, 1-Finger.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.030192997792606171</Mass>
+<CenterOfMass>-0.0017789125559439583 0.0069059776486888342 -3.6022906015366244e-08</CenterOfMass>
+<Inertia>9.4848225335777778e-06 5.7073944466699202e-06 1.328275657140038e-05 1.7043661028449934e-11 2.1992169180832799e-11 -4.1443515123189299e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Claw- 1-Finger.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Claw, 2-Finger.step" uid="Claw, 2-Finger.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Claw, 2-Finger.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.052527386500338946</Mass>
+<CenterOfMass>-0.00097249418062067799 0.0093433318297442038 -1.1936630786467801e-07</CenterOfMass>
+<Inertia>3.0163991678255574e-05 2.6288895461694069e-05 2.0505120536428675e-05 6.3926816062281688e-11 1.0500961978387415e-10 -6.5647724943931594e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Claw- 2-Finger.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Compression Spring, 19mm, 7.5 OD, 5.6 ID.step" uid="Compression Spring, 19mm, 7.5 OD, 5.6 ID.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Compression Spring, 19mm, 7.5 OD, 5.6 ID.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00015473025642168283</Mass>
+<CenterOfMass>-5.7418417664348268e-05 0.0095051169862623141 -5.365102832631473e-07</CenterOfMass>
+<Inertia>6.9330540496795889e-09 2.5038483329490027e-09 6.9296228572346238e-09 -1.4574980732023332e-10 -1.7343016836326272e-13 -1.1101754387606917e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Compression Spring- 19mm- 7.5 OD- 5.6 ID.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.39803921568627448" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Connector Plate.step" uid="Connector Plate.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Connector Plate.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.080570208862155726</Mass>
+<CenterOfMass>5.2764741714819332e-10 -0.00014133453427504333 -0.0037248795137028476</CenterOfMass>
+<Inertia>0.00022178983885798119 2.6665952522090303e-05 0.0002447153226165067 3.0691526104284445e-09 3.3382981973364563e-13 -2.1542510199292502e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Connector Plate.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Double Heavy Bracket Bottom.step" uid="Double Heavy Bracket Bottom.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Double Heavy Bracket Bottom.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.024693082820004639</Mass>
+<CenterOfMass>0 -0.00013930909289435847 0</CenterOfMass>
+<Inertia>6.0079712087941312e-06 1.9340907206878143e-05 1.3743967625548205e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Double Heavy Bracket Bottom.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gripper Base.step" uid="Gripper Base.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gripper Base.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.009389751556458029</Mass>
+<CenterOfMass>-1.7923476041042554e-11 0.0023319312896585686 0</CenterOfMass>
+<Inertia>1.1103941102936793e-06 2.2207276105031331e-06 1.6701514558264999e-06 1.1800657292318335e-15 1.0743043945944771e-15 0</Inertia>
+</MassProperties>
+<GeometryFile name="Gripper Base.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.56862745098039214" g="0.65098039215686276" b="0.73333333333333328" a="1"/>
+<Diffuse r="0.56862745098039214" g="0.65098039215686276" b="0.73333333333333328" a="1"/>
+<Specular r="0.28431372549019607" g="0.32549019607843138" b="0.36666666666666664" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gripper Cover.step" uid="Gripper Cover.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gripper Cover.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060669115559112219</Mass>
+<CenterOfMass>3.2903805871249831e-09 0.0088474876327564091 6.0688358897239285e-08</CenterOfMass>
+<Inertia>1.2806203710883336e-06 1.7557550836211083e-06 8.0677513375158785e-07 -2.6425565582983657e-13 -1.8451870171129993e-12 4.565923189417812e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Gripper Cover.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Housing Mid-Tube Mount.step" uid="Housing Mid-Tube Mount.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Housing Mid-Tube Mount.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031598826850203175</Mass>
+<CenterOfMass>0.00038723120997782824 -1.3410742003710733e-08 0.0045209156684589344</CenterOfMass>
+<Inertia>1.1800458857634064e-05 1.4506645619544391e-05 2.4711129085673653e-05 9.8706760288867527e-12 -6.3758691372775216e-08 1.0862912448169715e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Housing Mid-Tube Mount.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Housing Tube Mount.step" uid="Housing Tube Mount.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Housing Tube Mount.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.022448773561281894</Mass>
+<CenterOfMass>0.0070942170986514402 -8.6971212805206692e-08 0.005906824309287728</CenterOfMass>
+<Inertia>7.8371048433510687e-06 8.4858575211550696e-06 1.5300984791212633e-05 9.8046400463972303e-12 -8.225477485194555e-07 1.2757611162683486e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Housing Tube Mount.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Input Mount Cover.step" uid="Input Mount Cover.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Input Mount Cover.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014627030528254764</Mass>
+<CenterOfMass>-0.0087556999611032253 0.020828051731750258 0.0011458931688299199</CenterOfMass>
+<Inertia>7.1835037962093354e-06 7.8267139528986992e-06 3.6888006772847102e-06 1.7546783903509943e-08 -2.6681660646288839e-07 -8.6419452605703705e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Input Mount Cover.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Light Duty 90 Deg. Bracket - Left.step" uid="Light Duty 90 Deg. Bracket - Left.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Light Duty 90 Deg. Bracket - Left.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.041044878892007128</Mass>
+<CenterOfMass>0.024915648608218856 0.021762016101572423 -0.0027989525142993279</CenterOfMass>
+<Inertia>3.1141360422891624e-05 2.7432377906344341e-05 3.0515889905382347e-05 4.8164885904846825e-07 -1.4436061439158912e-06 -8.6341251171639411e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Light Duty 90 Deg. Bracket - Left.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M2 Dowel Pin, 10mm.step" uid="M2 Dowel Pin, 10mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M2 Dowel Pin, 10mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.1216135816524511e-05</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.5520176914147613e-11 2.6479554615047672e-10 2.6479554615047672e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M2 Dowel Pin- 10mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.39803921568627448" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M2 Dowel Pin, 6mm.step" uid="M2 Dowel Pin, 6mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M2 Dowel Pin, 6mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.8649765202165338e-05</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>9.236991606968026e-12 5.9505897136000564e-11 5.9505897136000564e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M2 Dowel Pin- 6mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.39803921568627448" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M2 SHCS, 8mm.step" uid="M2 SHCS, 8mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M2 SHCS, 8mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.9394602536370613e-05</Mass>
+<CenterOfMass>1.4795134934015019e-07 1.1804683335332855e-07 -0.0065904002986750592</CenterOfMass>
+<Inertia>3.6444931008899605e-10 3.6444757126397002e-10 4.7316449307136598e-11 -7.8785739503122764e-14 8.8529656039731656e-14 1.1725411931042297e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M2 SHCS- 8mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 BHCS, 25mm.step" uid="M3 BHCS, 25mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 BHCS, 25mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00016834740543858646</Mass>
+<CenterOfMass>-2.2511390885097392e-07 1.0829194931698232e-06 -0.012059050768902848</CenterOfMass>
+<Inertia>1.1344178349625241e-08 1.1344024914828271e-08 2.2807802102761014e-10 2.5663772955520938e-12 -1.9281250147115879e-12 1.1263153781418805e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M3 BHCS- 25mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.39803921568627448" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 BHCS, 40mm.step" uid="M3 BHCS, 40mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 BHCS, 40mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00023063656395397466</Mass>
+<CenterOfMass>-1.5685909212615698e-05 2.6080693070127369e-05 0.0033118003606202409</CenterOfMass>
+<Inertia>3.3721345317610325e-08 3.372089131380783e-08 2.7729537098045435e-10 5.3899218885959993e-11 -8.110581148988227e-11 -1.9147630403611995e-12</Inertia>
+</MassProperties>
+<GeometryFile name="M3 BHCS- 40mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.39803921568627448" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 Dowel Pin, 24mm.step" uid="M3 Dowel Pin, 24mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 Dowel Pin, 24mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00016606716286383935</Mass>
+<CenterOfMass>-3.4185477381009233e-05 1.5512313286960238e-09 2.7222009147382747e-09</CenterOfMass>
+<Inertia>1.8523591398786819e-10 7.7369582915920466e-09 7.7369504407762182e-09 0 2.4083021903842758e-14 0</Inertia>
+</MassProperties>
+<GeometryFile name="M3 Dowel Pin- 24mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.39803921568627448" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 SHCS, 35mm.step" uid="M3 SHCS, 35mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 SHCS, 35mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00028203435940382958</Mass>
+<CenterOfMass>-4.7724720621319617e-07 1.4574073441960747e-07 -0.022354762167459796</CenterOfMass>
+<Inertia>3.787719692799123e-08 3.7877253060717267e-08 4.8586914150261431e-10 -3.851148988344213e-13 1.6944881030224732e-12 1.1017297292529605e-14</Inertia>
+</MassProperties>
+<GeometryFile name="M3 SHCS- 35mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 SHCS, 8mm.step" uid="M3 SHCS, 8mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 SHCS, 8mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010560852284346961</Mass>
+<CenterOfMass>4.8772258616018109e-08 -9.629350389933146e-08 -0.0071273514639676261</CenterOfMass>
+<Inertia>1.1686345548913455e-09 1.1686429414199894e-09 2.9885098431226813e-10 -1.1005016723015746e-13 4.1654087803112178e-13 -3.8199766222011168e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M3 SHCS- 8mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M4 Dowel Pin, 20mm.step" uid="M4 Dowel Pin, 20mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M4 Dowel Pin, 20mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00026797596456462088</Mass>
+<CenterOfMass>-4.5065287983944861e-05 2.1152751982449166e-09 3.7177591040176004e-09</CenterOfMass>
+<Inertia>5.292560380290558e-10 1.0436731416856453e-08 1.0436708129804749e-08 0 4.8004691133966699e-14 8.1183810359112099e-16</Inertia>
+</MassProperties>
+<GeometryFile name="M4 Dowel Pin- 20mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.39803921568627448" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M4 Round Shim.step" uid="M4 Round Shim.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M4 Round Shim.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.178015063513192e-06</Mass>
+<CenterOfMass>0 0.000127 0</CenterOfMass>
+<Inertia>4.7082579732654629e-11 9.4066471328669647e-11 4.7082579732654622e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M4 Round Shim.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.79607843137254897" b="0.79607843137254897" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.39803921568627448" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M4 Sleeve Bearing.step" uid="M4 Sleeve Bearing.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M4 Sleeve Bearing.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.2453206445792569e-05</Mass>
+<CenterOfMass>-1.501463165572335e-05 0 3.949522939648044e-15</CenterOfMass>
+<Inertia>3.705617372341809e-10 3.6829074572665551e-10 3.6488779656726254e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M4 Sleeve Bearing.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 FHCS, 10mm.step" uid="M5 FHCS, 10mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 FHCS, 10mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00023660619675233013</Mass>
+<CenterOfMass>1.4396067273121768e-07 -1.6930180542899512e-06 -0.0036285756605136067</CenterOfMass>
+<Inertia>2.9468116488085003e-09 2.9468501032792976e-09 1.5206622248716401e-09 -9.7492668287556568e-13 1.3134875318134787e-12 1.1938365548759114e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M5 FHCS- 10mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 SHCS, 10mm.step" uid="M5 SHCS, 10mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 SHCS, 10mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00039962069050602367</Mass>
+<CenterOfMass>9.3864434171038029e-07 1.0379788472679827e-06 0.0019704227700652311</CenterOfMass>
+<Inertia>8.1476942215925024e-09 8.1477252821199316e-09 2.7768755162371983e-09 1.6667299410994262e-12 1.7345899618126302e-12 3.6113841206033012e-14</Inertia>
+</MassProperties>
+<GeometryFile name="M5 SHCS- 10mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 SHCS, 12mm.step" uid="M5 SHCS, 12mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 SHCS, 12mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00043017893479001192</Mass>
+<CenterOfMass>2.8364565295851067e-07 -9.6394997156778641e-07 -0.010678841117538893</CenterOfMass>
+<Inertia>1.1453981955853689e-08 1.1453918308386802e-08 2.9315667700243947e-09 2.2865694138995933e-12 3.6419146256695454e-12 -1.7230589164975909e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M5 SHCS- 12mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 SHCS, 14mm.step" uid="M5 SHCS, 14mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 SHCS, 14mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0004619192723673853</Mass>
+<CenterOfMass>-1.6482478876866279e-06 -1.7381464898996575e-07 -0.011882446345294239</CenterOfMass>
+<Inertia>1.5477141705861958e-08 1.5477087532163515e-08 3.0138729369981706e-09 3.2958002401790836e-12 2.8827928482161544e-12 -1.8129470357848803e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M5 SHCS- 14mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 SHCS, 16mm.step" uid="M5 SHCS, 16mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 SHCS, 16mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00048632845119072428</Mass>
+<CenterOfMass>-1.6023423834260887e-06 6.7747326648628297e-07 -0.013110094596147894</CenterOfMass>
+<Inertia>2.0132847054166146e-08 2.0132942846814476e-08 3.0566203688440518e-09 -4.2530510538182287e-12 2.478213714367159e-12 -2.3031851537262345e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M5 SHCS- 16mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 SHCS, 8mm.step" uid="M5 SHCS, 8mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 SHCS, 8mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00036788013177331823</Mass>
+<CenterOfMass>4.6481897730294922e-08 -5.2978773150423117e-08 0.0016893681958965183</CenterOfMass>
+<Inertia>5.7004964431108354e-09 5.7005235624552625e-09 2.6945679173027853e-09 1.4936171189607111e-12 1.4079528084307462e-12 1.3890731412990035e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M5 SHCS- 8mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M6 SHCS, 12mm.step" uid="M6 SHCS, 12mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M6 SHCS, 12mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00070339053478102407</Mass>
+<CenterOfMass>5.7912456127142349e-07 -1.5329323152241056e-06 -0.012403597580726284</CenterOfMass>
+<Inertia>2.5963888783237308e-08 2.596323696116276e-08 6.7127809387576724e-09 7.7222899734697043e-12 7.723428509973968e-12 -4.1879811201518266e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M6 SHCS- 12mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Diffuse r="0.17254901960784313" g="0.17254901960784313" b="0.17254901960784313" a="1"/>
+<Specular r="0.086274509803921567" g="0.086274509803921567" b="0.086274509803921567" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Output In-Line Tube Adapter.step" uid="Output In-Line Tube Adapter.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Output In-Line Tube Adapter.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.024062616074608495</Mass>
+<CenterOfMass>0.0086044627293168988 -0.0040903838540214052 8.6859714267499159e-09</CenterOfMass>
+<Inertia>8.2425419054758793e-06 8.7632625006257663e-06 5.9353773094112486e-06 -1.0617147013139595e-12 2.2279543128185474e-12 -1.2085963647561782e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Output In-Line Tube Adapter.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Power Port.step" uid="Power Port.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Power Port.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00046700702867646411</Mass>
+<CenterOfMass>0.067097429276961523 0.0020558825041313718 -0.005063578534724689</CenterOfMass>
+<Inertia>1.3668393136104751e-08 6.2279864896208357e-09 1.0163716058833454e-08 6.3796496952152011e-10 1.8438339635023093e-11 1.4631256023895581e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Power Port.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RJ45 Port.step" uid="RJ45 Port.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RJ45 Port.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0070176180195659563</Mass>
+<CenterOfMass>0.0551397800872407 0.011182635765492206 -0.0020232419514831235</CenterOfMass>
+<Inertia>7.2755199610193169e-07 3.944849551984892e-07 6.6250256689081333e-07 -6.3672914557923578e-08 6.2038560351649987e-12 -2.06606493152493e-11</Inertia>
+</MassProperties>
+<GeometryFile name="RJ45 Port.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spool Housing.step" uid="Spool Housing.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Spool Housing.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014504764988298675</Mass>
+<CenterOfMass>-1.2044871969395472e-05 -0.00023283367489987175 -0.001238758846662157</CenterOfMass>
+<Inertia>6.9111703221705777e-06 1.3086338898066419e-05 6.4123795805209336e-06 6.3282497603217738e-09 1.5841559526325841e-08 -7.4738225500164015e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Spool Housing.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spool.step" uid="Spool.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Spool.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015057586507800673</Mass>
+<CenterOfMass>-0.00018901734409439727 0.0048415495801952058 0.00022061657906424957</CenterOfMass>
+<Inertia>2.463810736501618e-06 4.7365547481623629e-06 2.5612009949195408e-06 7.3814721487863346e-10 1.4062827775077184e-07 1.1304437037344957e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Spool.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spring Tooth Driver.step" uid="Spring Tooth Driver.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Spring Tooth Driver.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0020521530238521604</Mass>
+<CenterOfMass>0 0.0055107962484787845 0</CenterOfMass>
+<Inertia>1.3720409166453012e-07 1.5191955309747609e-07 5.6846216644090498e-08 0 6.3329242947741598e-14 0</Inertia>
+</MassProperties>
+<GeometryFile name="Spring Tooth Driver.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.56862745098039214" g="0.65098039215686276" b="0.73333333333333328" a="1"/>
+<Diffuse r="0.56862745098039214" g="0.65098039215686276" b="0.73333333333333328" a="1"/>
+<Specular r="0.28431372549019607" g="0.32549019607843138" b="0.36666666666666664" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T-Slot Adapter Plate.step" uid="T-Slot Adapter Plate.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T-Slot Adapter Plate.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.017296944437308292</Mass>
+<CenterOfMass>-0.0026395606483744696 0.0023557284514736155 0</CenterOfMass>
+<Inertia>1.7728432009688277e-05 2.13159510228986e-05 3.6526506671762693e-06 0 0 3.5257725261320644e-10</Inertia>
+</MassProperties>
+<GeometryFile name="T-Slot Adapter Plate.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Toothed Finger.step" uid="Toothed Finger.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Toothed Finger.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0027029651984177773</Mass>
+<CenterOfMass>0.013213390645078531 5.2280370331481268e-05 1.1466959934958878e-10</CenterOfMass>
+<Inertia>4.426356103362934e-08 2.7766709010114659e-07 2.6342831388771519e-07 1.7833551892102082e-15 2.1328873832116215e-15 2.1408052845556106e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Toothed Finger.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.56862745098039214" g="0.65098039215686276" b="0.73333333333333328" a="1"/>
+<Diffuse r="0.56862745098039214" g="0.65098039215686276" b="0.73333333333333328" a="1"/>
+<Specular r="0.28431372549019607" g="0.32549019607843138" b="0.36666666666666664" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tube Clamp.step" uid="Tube Clamp.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tube Clamp.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0055519218021844461</Mass>
+<CenterOfMass>-6.8067664018199601e-07 0.010408471768718097 2.6600051353085893e-07</CenterOfMass>
+<Inertia>4.0070903090297764e-07 1.5750976406914837e-06 1.4726390196556824e-06 6.6502419044506229e-13 2.4433602057101197e-11 7.5207973268250386e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Tube Clamp.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tube, 300mm.step" uid="Tube, 300mm.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tube, 300mm.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046931175665959217</Mass>
+<CenterOfMass>1.2686257676140076e-09 4.4542287387356983e-09 0.15000004426817665</CenterOfMass>
+<Inertia>0.0003573230963467685 0.00035732310992960209 1.0652619177128183e-05 -7.1949074598336029e-12 -1.6307481207369513e-12 -1.8271254966983659e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Tube- 300mm.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.39215686274509803" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="0.39215686274509803" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.19607843137254902" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X-Series Heavy Bracket, Left.step" uid="X-Series Heavy Bracket, Left.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X-Series Heavy Bracket, Left.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.052634862743575234</Mass>
+<CenterOfMass>-0.0066801428214979496 0.0024444513089242892 0.0010188233352386603</CenterOfMass>
+<Inertia>2.494064922510583e-05 2.4873570228257869e-05 4.810122895101878e-05 -2.6111676339478809e-07 3.7951951556227375e-07 -4.9133534290140512e-06</Inertia>
+</MassProperties>
+<GeometryFile name="X-Series Heavy Bracket- Left.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X-Series Heavy Bracket, Right.step" uid="X-Series Heavy Bracket, Right.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X-Series Heavy Bracket, Right.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.05263478845703138</Mass>
+<CenterOfMass>0.0066801300553958089 0.0024443819705999158 0.0010188257719388528</CenterOfMass>
+<Inertia>2.4940532274083789e-05 2.4873574642063216e-05 4.8101115354640708e-05 -2.6112887129922407e-07 -3.7952371715277974e-07 4.913357572414117e-06</Inertia>
+</MassProperties>
+<GeometryFile name="X-Series Heavy Bracket- Right.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X5 Actuator Body.step" uid="X5 Actuator Body.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X5 Actuator Body.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.097187718989688532</Mass>
+<CenterOfMass>0.0092665245937912383 0.00043093738096576794 1.0089373749969969e-09</CenterOfMass>
+<Inertia>3.851473987614387e-05 5.0943495250837603e-05 8.3045711827379147e-05 -2.1125740324089207e-12 -1.37298448688266e-12 -1.2229909515456293e-06</Inertia>
+</MassProperties>
+<GeometryFile name="X5 Actuator Body.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.5" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X5 Actuator Bottom.step" uid="X5 Actuator Bottom.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X5 Actuator Bottom.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.026937001153836217</Mass>
+<CenterOfMass>0.018485478170252638 0.0024298793978952335 -0.012466874461544269</CenterOfMass>
+<Inertia>8.7201426632566891e-06 2.0160194801518317e-05 2.8768001250881895e-05 3.7886281398978547e-09 3.4906027639205704e-09 -2.3202152466049165e-06</Inertia>
+</MassProperties>
+<GeometryFile name="X5 Actuator Bottom.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.5" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X5 Actuator Joint.step" uid="X5 Actuator Joint.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X5 Actuator Joint.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010809967862189901</Mass>
+<CenterOfMass>5.2822231368197336e-07 0 0.012616145247678155</CenterOfMass>
+<Inertia>2.3294679318850225e-06 2.3293507106378707e-06 4.6018244660412989e-06 0 -1.9322034765279536e-11 0</Inertia>
+</MassProperties>
+<GeometryFile name="X5 Actuator Joint.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.5" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X5 Actuator Top.step" uid="X5 Actuator Top.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X5 Actuator Top.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014736234595358472</Mass>
+<CenterOfMass>0.029054839034788033 0.0035351875493348167 0.012565435744170997</CenterOfMass>
+<Inertia>5.7861231627396964e-06 1.0287792739864511e-05 1.6017093365339829e-05 -1.4463761813701324e-08 -5.4843426001333501e-08 -1.2578004104030111e-06</Inertia>
+</MassProperties>
+<GeometryFile name="X5 Actuator Top.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.5" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X5 Port Cover.step" uid="X5 Port Cover.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X5 Port Cover.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0023482100589750049</Mass>
+<CenterOfMass>0.063193888570339737 0.018833485979950368 0.00050290689247363993</CenterOfMass>
+<Inertia>4.8286372146914431e-07 2.8956412086607718e-07 5.9901437821946006e-07 5.684169643580281e-12 -5.463435210196799e-11 2.2585006786993638e-07</Inertia>
+</MassProperties>
+<GeometryFile name="X5 Port Cover.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X8 Actuator Body.step" uid="X8 Actuator Body.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X8 Actuator Body.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14614078665767968</Mass>
+<CenterOfMass>0.0092392508204949004 0.00043017360580691955 1.4893478434470675e-09</CenterOfMass>
+<Inertia>6.4166496456946078e-05 8.2735760738567518e-05 0.00012515170853156601 -5.9144811090551355e-12 -3.4670069754753874e-12 -1.850840806447891e-06</Inertia>
+</MassProperties>
+<GeometryFile name="X8 Actuator Body.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.5" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X8 Actuator Bottom.step" uid="X8 Actuator Bottom.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X8 Actuator Bottom.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.04315602764284391</Mass>
+<CenterOfMass>0.018473952803695608 0.0022839773986270797 -0.018943746480321755</CenterOfMass>
+<Inertia>1.4058200494621719e-05 3.2518984449784362e-05 4.60998473394255e-05 2.4295040280239825e-08 -2.5076464551263512e-08 -3.5039203335092108e-06</Inertia>
+</MassProperties>
+<GeometryFile name="X8 Actuator Bottom.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.5" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X8 Actuator Joint.step" uid="X8 Actuator Joint.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X8 Actuator Joint.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01285473627263186</Mass>
+<CenterOfMass>4.4419940670026864e-07 0 0.018073193225973127</CenterOfMass>
+<Inertia>2.7654123544207365e-06 2.7652951336533572e-06 5.4392966529679586e-06 0 -2.2422326772771351e-11 0</Inertia>
+</MassProperties>
+<GeometryFile name="X8 Actuator Joint.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.5" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X8 Actuator Top.step" uid="X8 Actuator Top.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X8 Actuator Top.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019655292165419141</Mass>
+<CenterOfMass>0.032345464153529971 0.00378149460969845 0.017618787637948892</CenterOfMass>
+<Inertia>7.2473375127493901e-06 1.4017867535251896e-05 2.1068721303998334e-05 -3.6510454830167846e-08 1.5237423444951161e-07 -1.6137879458951511e-06</Inertia>
+</MassProperties>
+<GeometryFile name="X8 Actuator Top.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Diffuse r="1" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+<Specular r="0.5" g="0.19607843137254902" b="0.19607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X8 Port Cover.step" uid="X8 Port Cover.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="X8 Port Cover.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.003308572872356072</Mass>
+<CenterOfMass>0.063217670623279015 0.018770432836278605 -0.00074543210225979045</CenterOfMass>
+<Inertia>8.0392014606827759e-07 5.2826822287062304e-07 8.4683820594619846e-07 1.1629942551183508e-11 -1.2061000608971526e-10 3.1891829433373162e-07</Inertia>
+</MassProperties>
+<GeometryFile name="X8 Port Cover.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
